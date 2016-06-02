@@ -1,0 +1,1 @@
+a:6:{s:2:"de";s:7:"Deutsch";s:2:"en";s:7:"English";s:2:"pl";s:6:"Polish";s:2:"pt";s:10:"Português";s:2:"ru";s:14:"Русский";s:2:"ua";s:20:"Українська";}

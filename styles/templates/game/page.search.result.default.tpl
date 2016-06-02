@@ -1,0 +1,59 @@
+{block name="content"}
+
+							<!-- Widget ID (each widget will need unique ID)-->
+							<div class="jarviswidget jarviswidget-color-blueDark" id="wid-id-0" data-widget-editbutton="false">
+								<header>
+									<span class="widget-icon"> <i class="fa fa-empire"></i> </span>
+									<h2>{$LNG.lm_search}</h2>
+
+								</header>
+
+								<!-- widget div-->
+								<div>
+
+									<!-- widget edit box -->
+									<div class="jarviswidget-editbox">
+										<!-- This area used as dropdown edit box -->
+
+									</div>
+									<!-- end widget edit box -->
+
+									<!-- widget content -->
+									<div class="widget-body">
+										
+										<div class="table-responsive">
+										
+											<table class="table table-bordered">
+												<thead><tr>
+		<th>{$LNG.sh_name}</th>
+		<th>&nbsp;</th>
+		<th>{$LNG.sh_alliance}</th>
+		<th>{$LNG.sh_planet}</th>
+		<th>{$LNG.sh_coords}</th>
+		<th>{$LNG.sh_position}</th>
+	</tr>
+	{foreach $searchList as $searchRow}
+	<tr>
+		<td><a href="#" onclick="return Dialog.Playercard({$searchRow.userid});">{$searchRow.username}</a></td>
+		<td><a href="#" onclick="return Dialog.PM({$searchRow.userid});" title="{$LNG.sh_write_message}"><img src="{$dpath}img/m.gif"/></a>&nbsp;<a href="#" onclick="return Dialog.Buddy({$searchRow.userid});" title="{$LNG.sh_buddy_request}"><img src="{$dpath}img/b.gif" border="0"></a></td>
+		<td>{if $searchRow.allyname}<a href="game.php?page=alliance&amp;mode=info&amp;id={$searchRow.allyid}">{$searchRow.allyname}</a>{else}-{/if}</td>
+		<td>{$searchRow.planetname}</td>
+		<td><a href="game.php?page=galaxy&amp;galaxy={$searchRow.galaxy}&amp;system={$searchRow.system}">[{$searchRow.galaxy}:{$searchRow.system}:{$searchRow.planet}]</a></td>
+		<td>{$searchRow.rank}</td>
+	</tr>
+	{/foreach}
+												</thead>
+											</table>
+											
+										</div>
+									</div>
+									<!-- end widget content -->
+
+								</div>
+								<!-- end widget div -->
+
+							</div>
+							<!-- end widget -->
+
+
+{/block}

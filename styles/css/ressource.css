@@ -1,0 +1,173 @@
+#res_nav {
+    margin: 0 12px 0px 12px;
+    height: 40px;
+    border: 1px solid #000;
+    background: #08162b url(../images/bg_res_nav.jpg) repeat-x;
+    -moz-border-radius: 0px 0px 2px 2px;
+    -webkit-border-radius: 0px 0px 2px 2px;
+    border-radius: 0px 0px 2px 2px;
+}
+
+#res_nav .bloc_res {
+    margin-left: 2%;
+    width: 16%;
+    float: left;
+    position: relative;
+    height: 40px;
+    overflow: hidden;
+    max-width: 220px;
+}
+
+#res_nav .bloc_res .ico_res {
+    width: 21px;
+    height: 21px;
+    border: 1px solid #000;
+    position: absolute;
+    background-color: #000;
+    left: 0;
+    top: 9px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+    z-index: 2;
+}
+
+#res_nav .bloc_res .stock_res {
+    margin-left: 18px;
+    margin-right: 16px;
+    margin-top: 12px;
+    height: 15px;
+    border: 1px solid #000;
+    background: #282828;
+    -moz-border-radius: 0px 2px 2px 0px;
+    -webkit-border-radius: 0px 2px 2px 0px;
+    border-radius: 0px 2px 2px 0px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#res_nav .bloc_res .stock_percentage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 13px;
+    z-index: 1;
+}
+
+#res_nav .bloc_res .stock_text {
+    color: #fff;
+    text-shadow: 0px 1px 0px rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 2;
+    width: 96%;
+    overflow: hidden;
+    height: 15px;
+    line-height: 15px;
+    font-size: 11px;
+    text-align: center;
+    padding-left: 3%;
+}
+
+#res_nav .bloc_res .exchange_res {
+    float: right;
+    width: 13px;
+    display: block;
+    height: 11px;
+    margin-top: 15px;
+    background: url(../images/exchange_res.png) no-repeat;
+}
+
+#res_nav .bloc_res .exchange_res:hover {
+    background-position: 0 -11px;
+}/*metall*/#res_nav #res_block_metall .ico_res {
+    background-image: url(../images/metall.gif);
+}
+
+#res_nav #res_block_metall .stock_percentage {
+    border: 1px solid #775e5d;
+    background: #5e4240 url(../images/metall_percentage.gif) repeat-x;
+}/*kristall*/#res_nav #res_block_kristall .ico_res {
+    background-image: url(../images/kristall.gif);
+}
+
+#res_nav #res_block_kristall .stock_percentage {
+    border: 1px solid #5892e7;
+    background: #4a78bc url(../images/kristall_percentage.gif) repeat-x;
+}/*deuterium*/#res_nav #res_block_deuterium .ico_res {
+    background-image: url(../images/deuterium.gif);
+    background-position: center;
+}
+
+#res_nav #res_block_deuterium .stock_percentage {
+    border: 1px solid #33ac5d;
+    background: #268246 url(../images/deuterium_percentage.gif) repeat-x;
+}/*energie*/#res_nav #res_block_energie .ico_res {
+    background-image: url(../images/energie.gif);
+    background-position: center;
+}
+
+#res_nav #res_block_energie .stock_res {
+    margin-right: 1px;
+}
+
+#res_nav #res_block_energie .stock_percentage_left {
+    right: 50%;
+    left: auto;
+    border: 1px solid #a4002a;
+    background: #79001d url(../images/energie_percentage_left.gif) repeat-x;
+    margin-right: -1px;
+}
+
+#res_nav #res_block_energie .stock_percentage_right {
+    left: 50%;
+    border: 1px solid #8f48c4;
+    background: #731fab url(../images/energie_percentage_right.gif) repeat-x;
+}
+
+#res_nav #res_block_energie .separator_energie {
+    position: absolute;
+    z-index: 2;
+    border-left: 1px solid #000;
+    height: 13px;
+    left: 50%;
+}/*darkmatter*/#res_nav #res_block_darkmatter {
+    width: 12%;
+    float: right;
+    max-width: 180px;
+}
+
+#res_nav #res_block_darkmatter .ico_res {
+    background-image: url(../images/darkmatter.gif);
+}
+
+#res_nav #res_block_darkmatter .stock_res {
+    border: 0;
+    background: none;
+    margin-right: 0;
+}
+
+#res_nav #res_block_darkmatter .stock_text {
+    text-align: left;
+    padding-left: 7px;
+}/*atm*/#res_nav #res_block_atm {
+    width: 12%;
+    float: right;
+    max-width: 180px;
+}
+
+#res_nav #res_block_atm .ico_res {
+    background-image: url(../images/atm.gif);
+}
+
+#res_nav #res_block_atm .stock_res {
+    border: 0;
+    background: none;
+    margin-right: 0;
+}
+
+#res_nav #res_block_atm .stock_text {
+    text-align: left;
+    padding-left: 7px;
+}

@@ -1,0 +1,53 @@
+
+/*----------------------------------------------------------------------------------------
+									COLOR SETTINGS 
+-----------------------------------------------------------------------------------------*/
+
+.color-settings{
+	position:fixed;
+	left:0;
+	top:50%;
+	margin-top:-150px;
+	z-index:10;
+}
+.color-settings a{
+	display:block;
+	position:relative;
+	height:50px;
+	width:50px;
+	padding:20px;
+	margin-left:-30px;
+}
+.color-settings a:hover,
+.color-settings a.selected{
+	margin-left:0;
+}
+.color-settings a:before{
+	content:"";
+	display:block;
+	height:10px;
+	width:10px;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	transform:rotate(-45deg);
+	-webkit-transform:rotate(-45deg);
+	-moz-transform:rotate(-45deg);
+	-ms-transform:rotate(-45deg);
+	background:#000;
+	opacity:0.2;
+}
+.color-settings a.selected:before{
+	background:#fff;
+	opacity:1;
+	-webkit-box-shadow: 0px 1px 0px 0px rgba(50, 50, 50, 0.25);
+	-moz-box-shadow:    0px 1px 0px 0px rgba(50, 50, 50, 0.25);
+	box-shadow:         0px 1px 0px 0px rgba(50, 50, 50, 0.25);
+}
+
+.color_default{background:#00aeff;}
+.color_purple{background:#a640d0;}
+.color_red{background:#e44948;}
+.color_gold{background:#ab8c5b;}
+.color_green{background:#00caa2;}
+.color_black{background:#222222;}

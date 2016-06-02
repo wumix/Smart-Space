@@ -1,0 +1,378 @@
+/*
+ * It is advised not to edit the smartadmin_production.css
+ * as this will override any changes you make in the 
+ * later versions of this theme. 
+ * 
+ * We advise that you use use this CSS to override 
+ * SmartAdmin styles. 
+ * 
+ * Rename the stylesheet to whatever your liking so it will stay
+ * unique to you with each update of SmartAdmin.
+ */
+
+/*
+ * INDEX
+ * 
+ * - HTML
+ * - BODY
+ * - CUSTOM STYLES
+ */
+ 
+.spyRaport{
+	border:#999 1px solid;
+
+	width:685px;
+}
+.spyRaportFooter,
+.spyRaportContainer {
+	clear:both;
+	border-top:#999 1px solid;
+
+}
+
+.spyRaportContainerRow.first {
+	clear:both;
+}
+
+.spyRaportContainerHead {
+	font-weight:700;
+	padding:3px;
+	color:#FC0;
+	border-top:#999 1px solid;
+	background:#666;
+	background: -moz-linear-gradient(
+		top,
+		#333333 0%,
+		#000000);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#333333),
+		to(#000000));
+	border-bottom:none;
+}
+.spyRaportContainerCellImg {
+	float:left;
+	width:45px;
+	margin:0;
+	height:45px;
+	background:#000000;
+	border:1px #333 solid;
+	overflow:hidden;
+	color:#FFF;
+	border-top:none;
+	border-right:none;
+}
+.spyRaportContainerCell1{
+	width:26%;
+	padding:2px;
+	float:left;
+	border:1px #333 solid;
+	overflow:hidden;
+	color:#FFF;
+	border-top:none;
+	border-right:none;
+}
+.spyRaportContainerCell2{
+	width:22%;
+	float:left;
+	border-bottom:1px #333 solid;
+	overflow:hidden;
+	color:#FFF;
+	padding:2px;
+}
+.spyRaportContainerCell {
+	float:left;
+	width:180px;
+	margin:0;
+	height:45px;
+	line-height:45px;
+	
+	
+	text-align:center;
+	border:1px #333 solid;
+	overflow:hidden;
+	color:#FFF;
+	border-top:none;
+}
+.spyRaportContainerCell{
+	float:left;
+}
+
+.spyRaportFooter{
+	text-align:center;
+	padding-top:8px;
+}
+
+
+select,option,textarea, .ui-widget-content{
+	background: #0D1014;
+}
+
+
+.tooltip, .tooltip_sticky {
+	cursor: pointer;
+}
+
+
+.tip {
+	display:none;
+	padding:7px;
+	position:absolute;
+	z-index:1000;
+	max-width: 500px;
+}
+
+.tip.notify {
+	position:fixed;
+	top:200px;
+	padding:20px;
+}
+
+
+.admin {
+	color:red;
+}
+.mod {
+	color:yellow;
+}
+.ops {
+	color:skyblue;
+}
+
+.messages_body .admin {
+	font-weight:700;
+	color:red;
+}
+.messages_body .mod {
+	font-weight:700;
+	color:yellow;
+}
+.messages_body .ops {
+	font-weight:700;
+	color:skyblue;
+}
+
+.res_max {
+	color:#0F0
+}
+
+.res_name {
+	color:red;
+	font-weight:700
+}
+
+.galaxy-alliance-member {
+	color:#99FF66;
+}
+
+.galaxy-alliance-friend {
+	color:#99FFFF;
+}
+
+.galaxy-alliance-enemy {
+	color:#FF0000;
+}
+
+.galaxy-short-noob,
+.galaxy-username-noob{
+	color:#a0ffa0
+}
+
+.galaxy-short-strong,
+.galaxy-username-strong {
+	color:#ffa0a0
+}
+
+.galaxy-short-vacation,
+.galaxy-username-vacation {
+	color:#659ec7
+}
+
+.galaxy-short-inactive,
+.galaxy-username-inactive {
+	color:#ccc
+}
+
+.galaxy-short-longinactive,
+.galaxy-username-longinactive {
+	color:#999
+}
+
+.galaxy-short-banned {
+	text-decoration:line-through
+}
+
+.ownattack {
+	color:#6c3
+}
+
+.owncolony {
+	color:#c1c1c1
+}
+
+.owndeploy {
+	color:#666
+}
+
+.owndestroy {
+	color:#ff9
+}
+
+.ownfederation {
+	color:#c66
+}
+
+.ownharvest {
+	color:#ceff68
+}
+
+.ownhold {
+	color:#80a0c0
+}
+
+.destroy {
+	color:#d4a017
+}
+
+.hold {
+	color:#39c
+}
+
+.warning {
+	color:#FF8040
+}
+
+.notice {
+	color:#FF0
+}
+
+.return {
+	color:#444
+}
+
+.allymember,.colony,.deploy,.harvest,.transport,.success {
+	color:lime
+}
+
+.owntransport {
+	color:#a0ffa0
+}
+
+.ownespionage,.ownmissile {
+	color:#fc6
+}
+
+.espionage,.missile {
+	color:#f60
+}
+
+.build_submit {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: lime;
+}
+.onlist{
+    color: #DDD;
+}
+
+#planet_menu_link{
+	font-weight:700;
+}
+
+#planet_menu_header{
+	text-align:right;
+}
+
+#planet_menu_content li {
+	text-align:center;
+}
+
+
+/* CONTENT */
+
+.tip th{
+	text-align:center
+}
+
+.top {
+	vertical-align:top
+}
+
+.transparent,#header td, .tip td, .tip th, .raportMessage td {
+	background: transparent;
+	border:none;
+	filter: none !important;
+}
+
+.mes_unread td {
+	font-weight:700;
+}
+
+.res_current_max,.attack,.federation,.error {
+	color:red
+}
+
+#fleetstatustable td{
+	background: transparent;
+	background-image: none;
+	border: 0 none
+}
+
+.raportWin {
+	color:lime;
+}
+
+.raportLose {
+	color:red;
+}
+
+.ui-progressbar-value {
+	background-image: url(img/processbar.gif);
+	background-position:top left;
+	border-color:#000;
+}
+
+.spyRaportContainerHead {
+	background: #212428;
+	color: white;
+	font-weight: 700;
+	text-align: left;
+	margin: 3px 0;
+	padding: 3px;
+}
+
+.spyRaportContainerRow {
+	border-top:1px solid #DDD;
+}
+.spyRaportContainerHead + .spyRaportContainerRow {
+	border-top:0 none;
+}
+
+.ui-autocomplete, .ui-state-hover, .ui-state-default, .ui-tabs-nav, .ui-tabs, .ui-progressbar, .ui-progressbar-value {
+	-webkit-border-radius:0;
+	-khtml-border-radius:0;
+	border-radius:0;
+}
+
+.ui-state-default{
+	border:1px solid #000 !important;
+	background: #0D1014 !important;
+}
+.ui-state-default > a{
+	cursor:pointer !important;
+}
+
+.ui-state-hover, .ui-progressbar{
+	border:1px solid #000 !important;
+	background: #212428 !important;
+}
+
+.ui-tabs-nav {
+	padding: 0;
+	height: 30px;
+}
+
+.ui-tabs {
+	border:1px solid #000;
+	background:transaprent;
+}

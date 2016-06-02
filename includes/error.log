@@ -1,0 +1,1548 @@
+[30-Jan-2015 11:17:56 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 11:17:56 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 11:21:18 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 11:21:18 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 11:23:55 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 11:23:55 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 11:23:58 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 11:23:58 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 12:23:55 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: No such file or directory' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/common.php(175): Language->includeData(Array)
+#3 /home/astralwars/public_html/index.php(37): require('/home/astralwar...')
+#4 {main}
+  thrown in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 12:23:55 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 12:29:51 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 12:29:51 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 12:45:44 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: No such file or directory' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/common.php(175): Language->includeData(Array)
+#3 /home/astralwars/public_html/index.php(37): require('/home/astralwar...')
+#4 {main}
+  thrown in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 12:45:44 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 12:45:53 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 12:45:53 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 12:45:59 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: No such file or directory' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/common.php(175): Language->includeData(Array)
+#3 /home/astralwars/public_html/index.php(37): require('/home/astralwar...')
+#4 {main}
+  thrown in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 12:45:59 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 13:25:44 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: No such file or directory' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/common.php(175): Language->includeData(Array)
+#3 /home/astralwars/public_html/index.php(37): require('/home/astralwar...')
+#4 {main}
+  thrown in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 13:25:44 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 13:30:08 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 13:30:08 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 13:30:40 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 13:30:40 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 13:31:14 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 13:31:14 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 13:55:02 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Нет такого файла или каталога' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwa in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 13:55:02 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 13:56:24 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Нет такого файла или каталога' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwa in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 13:56:24 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 13:58:32 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 13:58:32 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 13:58:36 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 13:58:36 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 13:58:39 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 13:58:39 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 13:58:41 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 13:58:41 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 14:01:49 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 14:01:49 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 14:01:51 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 14:01:51 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 14:01:52 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 14:01:52 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 14:01:55 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 14:01:55 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 14:01:57 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 14:01:57 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 14:01:58 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 14:01:58 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 14:01:59 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 14:01:59 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 14:29:41 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 14:29:41 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 14:53:19 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: No such file or directory' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/common.php(175): Language->includeData(Array)
+#3 /home/astralwars/public_html/index.php(37): require('/home/astralwar...')
+#4 {main}
+  thrown in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 14:53:19 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 15:36:39 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 15:36:39 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 16:11:07 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 16:11:07 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 16:11:27 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 16:11:27 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 17:06:05 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 17:06:05 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 17:15:33 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 17:15:33 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 17:15:36 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 17:15:36 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 17:16:28 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 17:16:28 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 17:19:34 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: No such file or directory' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/common.php(175): Language->includeData(Array)
+#3 /home/astralwars/public_html/index.php(37): require('/home/astralwar...')
+#4 {main}
+  thrown in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 17:19:34 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 17:22:26 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: No such file or directory' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/common.php(175): Language->includeData(Array)
+#3 /home/astralwars/public_html/index.php(37): require('/home/astralwar...')
+#4 {main}
+  thrown in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 17:22:26 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 17:22:58 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: No such file or directory' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/common.php(175): Language->includeData(Array)
+#3 /home/astralwars/public_html/index.php(37): require('/home/astralwar...')
+#4 {main}
+  thrown in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 17:22:58 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 17:38:35 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 17:38:35 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 17:38:37 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 17:38:37 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 17:38:44 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 17:38:44 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 17:38:47 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 17:38:47 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 17:43:53 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: No such file or directory' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/common.php(175): Language->includeData(Array)
+#3 /home/astralwars/public_html/index.php(37): require('/home/astralwar...')
+#4 {main}
+  thrown in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 17:43:53 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 17:45:36] NOTICE: "Undefined index: compendium_destroy"
+File: /home/astralwars/public_html/includes/pages/game/class.ShowGeneralPage.php | Line: 24
+URL: https://astralwars.net/game.php?page=general | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowGeneralPage.php(24): errorHandler(8, 'Undefined index...', '/home/astralwar...', 24, Array)
+#1 /game.php(67): ShowGeneralPage-&gt;show()
+#2 {main}
+[30-Jan-2015 17:46:25] NOTICE: "Undefined index: compendium_donated"
+File: /home/astralwars/public_html/includes/pages/game/class.ShowGeneralPage.php | Line: 25
+URL: https://astralwars.net/game.php?page=general | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowGeneralPage.php(25): errorHandler(8, 'Undefined index...', '/home/astralwar...', 25, Array)
+#1 /game.php(67): ShowGeneralPage-&gt;show()
+#2 {main}
+[30-Jan-2015 17:46:49] NOTICE: "Undefined index: compendium"
+File: /home/astralwars/public_html/includes/pages/game/class.ShowGeneralPage.php | Line: 165
+URL: https://astralwars.net/game.php?page=general | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowGeneralPage.php(165): errorHandler(8, 'Undefined index...', '/home/astralwar...', 165, Array)
+#1 /game.php(67): ShowGeneralPage-&gt;show()
+#2 {main}
+[30-Jan-2015 17:46:59] NOTICE: "Undefined index: compendium"
+File: /home/astralwars/public_html/includes/pages/game/class.ShowGeneralPage.php | Line: 165
+URL: https://astralwars.net/game.php?page=general | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowGeneralPage.php(165): errorHandler(8, 'Undefined index...', '/home/astralwar...', 165, Array)
+#1 /game.php(67): ShowGeneralPage-&gt;show()
+#2 {main}
+[30-Jan-2015 17:47:03] NOTICE: "Undefined index: compendium"
+File: /home/astralwars/public_html/includes/pages/game/class.ShowGeneralPage.php | Line: 165
+URL: https://astralwars.net/game.php?page=general | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowGeneralPage.php(165): errorHandler(8, 'Undefined index...', '/home/astralwar...', 165, Array)
+#1 /game.php(67): ShowGeneralPage-&gt;show()
+#2 {main}
+[30-Jan-2015 17:47:59] NOTICE: "Undefined index: compendium"
+File: /home/astralwars/public_html/includes/pages/game/class.ShowGeneralPage.php | Line: 165
+URL: https://astralwars.net/game.php?page=general | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowGeneralPage.php(165): errorHandler(8, 'Undefined index...', '/home/astralwar...', 165, Array)
+#1 /game.php(67): ShowGeneralPage-&gt;show()
+#2 {main}
+[30-Jan-2015 17:48:09] NOTICE: "Undefined index: compendium"
+File: /home/astralwars/public_html/includes/pages/game/class.ShowGeneralPage.php | Line: 165
+URL: https://astralwars.net/game.php?page=general | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowGeneralPage.php(165): errorHandler(8, 'Undefined index...', '/home/astralwar...', 165, Array)
+#1 /game.php(67): ShowGeneralPage-&gt;show()
+#2 {main}
+[30-Jan-2015 17:48:10] NOTICE: "Undefined index: compendium"
+File: /home/astralwars/public_html/includes/pages/game/class.ShowGeneralPage.php | Line: 165
+URL: https://astralwars.net/game.php?page=general | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowGeneralPage.php(165): errorHandler(8, 'Undefined index...', '/home/astralwar...', 165, Array)
+#1 /game.php(67): ShowGeneralPage-&gt;show()
+#2 {main}
+[30-Jan-2015 17:58:33] NOTICE: "Undefined index: compendium_m"
+File: /home/astralwars/public_html/includes/pages/game/class.ShowGeneralPage.php | Line: 166
+URL: https://astralwars.net/game.php?page=general | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowGeneralPage.php(166): errorHandler(8, 'Undefined index...', '/home/astralwar...', 166, Array)
+#1 /game.php(67): ShowGeneralPage-&gt;show()
+#2 {main}
+[30-Jan-2015 18:09:51] NOTICE: "Undefined index: metaldonated"
+File: /home/astralwars/public_html/cache/en^870126208cc0e4ce0c1ab7e8c002d14be87e825b.extends.page.general.default.tpl.cache.php | Line: 125
+URL: https://astralwars.net/game.php?page=general | Version: 1.7.2676
+Stack trace:
+#0 /cache/en^870126208cc0e4ce0c1ab7e8c002d14be87e825b.extends.page.general.default.tpl.cache.php(125): errorHandler(8, 'Undefined index...', '/home/astralwar...', 125, Array)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_54cbc3f142a545_09397090(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#3 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#4 /includes/pages/game/class.AbstractPage.php(333): template-&gt;display('extends:layout....')
+#5 /includes/pages/game/class.ShowGeneralPage.php(221): AbstractPage-&gt;display('page.general.de...')
+#6 /game.php(67): ShowGeneralPage-&gt;show()
+#7 {main}
+[30-Jan-2015 18:25:43 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 18:25:43 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 18:25:45 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 18:25:45 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 18:25:46 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 18:25:46 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 18:38:13 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 18:38:13 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 18:38:14 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 18:38:14 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 18:38:18 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 18:38:18 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 18:38:19 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 18:38:19 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 18:38:20 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 18:38:20 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 18:38:23 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 18:38:23 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 18:38:25 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 18:38:25 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 18:43:28 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: Datei oder Verzeichnis nicht gefunden' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/classes/class.MissionFunctions.php(136): Language->includeData(Array)
+#3 /home/astralwars/public_html/includes/classes/missions/MissionCaseSpy.php(160): MissionFunctions->getLanguage('es')
+#4 /home/astralwars/public_html/includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy->TargetEvent()
+#5 /home/astralwars/public_html/includes/FleetHandler.php(40): FlyingFleetHandler->run()
+#6 /home/astralwars/public_html/includes/common.php(113): require('/home/astralwar...')
+#7 /home/astralwars/public_html/ga in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 18:43:28 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 18:45:31] USER ERROR: "unmatched {block} {/block} pairs in template file 'page.general.default.tpl'"
+File: /home/astralwars/public_html/includes/libs/Smarty/sysplugins/smarty_internal_resource_extends.php | Line: 115
+URL: https://astralwars.net/game.php?page=general | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_resource.php(779): Smarty_Internal_Resource_Extends-&gt;getContent(Object(Smarty_Template_Source))
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(185): Smarty_Template_Source-&gt;__get('content')
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#5 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.AbstractPage.php(333): template-&gt;display('extends:layout....')
+#7 /includes/pages/game/class.ShowGeneralPage.php(188): AbstractPage-&gt;display('page.general.de...')
+#8 /game.php(67): ShowGeneralPage-&gt;show()
+#9 {main}
+[30-Jan-2015 19:00:49] USER ERROR: "Unkown cronjob 2 or is deactived"
+File: /home/astralwars/public_html/includes/classes/Cronjob.class.php | Line: 42
+URL: https://astralwars.net/cronjob.php?cronjobID=2 | Version: 1.7.2676
+Stack trace:
+#0 /cronjob.php(36): Cronjob::execute(2)
+#1 {main}
+[30-Jan-2015 19:03:20 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: No such file or directory' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/common.php(175): Language->includeData(Array)
+#3 /home/astralwars/public_html/index.php(37): require('/home/astralwar...')
+#4 {main}
+  thrown in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 19:03:20 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 21:49:35 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: No such file or directory' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/common.php(175): Language->includeData(Array)
+#3 /home/astralwars/public_html/index.php(37): require('/home/astralwar...')
+#4 {main}
+  thrown in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 21:49:35 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 22:36:44 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: No such file or directory' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/common.php(175): Language->includeData(Array)
+#3 /home/astralwars/public_html/index.php(37): require('/home/astralwar...')
+#4 {main}
+  thrown in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[30-Jan-2015 22:36:44 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[31-Jan-2015 00:31:20 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: No such file or directory' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/common.php(175): Language->includeData(Array)
+#3 /home/astralwars/public_html/index.php(37): require('/home/astralwar...')
+#4 {main}
+  thrown in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[31-Jan-2015 00:31:20 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[31-Jan-2015 00:43:29 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: No such file or directory' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/common.php(175): Language->includeData(Array)
+#3 /home/astralwars/public_html/index.php(37): require('/home/astralwar...')
+#4 {main}
+  thrown in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[31-Jan-2015 00:43:29 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[31-Jan-2015 00:43:45 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: No such file or directory' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/common.php(175): Language->includeData(Array)
+#3 /home/astralwars/public_html/index.php(37): require('/home/astralwar...')
+#4 {main}
+  thrown in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[31-Jan-2015 00:43:45 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[31-Jan-2015 00:44:09 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: No such file or directory' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/common.php(175): Language->includeData(Array)
+#3 /home/astralwars/public_html/index.php(37): require('/home/astralwar...')
+#4 {main}
+  thrown in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[31-Jan-2015 00:44:09 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[31-Jan-2015 00:56:07] WARNING: "array_merge(): Argument #2 is not an array"
+File: /home/astralwars/public_html/includes/classes/missions/MissionCaseAttack.php | Line: 256
+URL: https://astralwars.net/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 [internal function]: errorHandler(2, 'array_merge(): ...', '/home/astralwar...', 256, Array)
+#1 /includes/classes/missions/MissionCaseAttack.php(256): array_merge(Array, NULL)
+#2 /includes/classes/class.FlyingFleetHandler.php(80): MissionCaseAttack-&gt;TargetEvent()
+#3 /includes/FleetHandler.php(40): FlyingFleetHandler-&gt;run()
+#4 /includes/common.php(113): require('/home/astralwar...')
+#5 /game.php(37): require('/home/astralwar...')
+#6 {main}
+[31-Jan-2015 01:00:39] WARNING: "array_merge(): Argument #2 is not an array"
+File: /home/astralwars/public_html/includes/classes/missions/MissionCaseAttack.php | Line: 256
+URL: https://astralwars.net/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 [internal function]: errorHandler(2, 'array_merge(): ...', '/home/astralwar...', 256, Array)
+#1 /includes/classes/missions/MissionCaseAttack.php(256): array_merge(Array, NULL)
+#2 /includes/classes/class.FlyingFleetHandler.php(80): MissionCaseAttack-&gt;TargetEvent()
+#3 /includes/FleetHandler.php(40): FlyingFleetHandler-&gt;run()
+#4 /includes/common.php(113): require('/home/astralwar...')
+#5 /game.php(37): require('/home/astralwar...')
+#6 {main}
+[31-Jan-2015 02:25:02] WARNING: "unlink(/home/astralwars/public_html/cache/4d2699410bc2334ed7d31e4750b2705c.gz): No such file or directory"
+File: /home/astralwars/public_html/includes/GeneralFunctions.php | Line: 535
+URL: https://astralwars.net/cronjob.php?cronjobID=3 | Version: 1.7.2676
+Stack trace:
+#0 [internal function]: errorHandler(2, 'unlink(/home/as...', '/home/astralwar...', 535, Array)
+#1 /includes/GeneralFunctions.php(535): unlink('/home/astralwar...')
+#2 /includes/classes/cronjob/DailyCronjob.class.php(56): ClearCache()
+#3 /includes/classes/cronjob/DailyCronjob.class.php(35): DailyCronJob-&gt;clearCache()
+#4 /includes/classes/Cronjob.class.php(53): DailyCronJob-&gt;run()
+#5 /cronjob.php(36): Cronjob::execute(3)
+#6 {main}
+[31-Jan-2015 04:38:42 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: No such file or directory' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/common.php(175): Language->includeData(Array)
+#3 /home/astralwars/public_html/index.php(37): require('/home/astralwar...')
+#4 {main}
+  thrown in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[31-Jan-2015 04:38:42 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[31-Jan-2015 07:46:27 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: No such file or directory' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/common.php(175): Language->includeData(Array)
+#3 /home/astralwars/public_html/index.php(37): require('/home/astralwar...')
+#4 {main}
+  thrown in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[31-Jan-2015 07:46:27 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[31-Jan-2015 08:45:38] NOTICE: "Undefined index: id"
+File: /home/astralwars/public_html/includes/classes/class.PlanetRessUpdate.php | Line: 194
+URL: https://astralwars.net/game.php?page=research | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(194): errorHandler(8, 'Undefined index...', '/home/astralwar...', 194, Array)
+#1 /includes/pages/game/class.ShowResearchPage.php(144): ResourceUpdate::getNetworkLevel(Array, Array)
+#2 /includes/pages/game/class.ShowResearchPage.php(288): ShowResearchPage-&gt;RemoveBuildingFromQueue(2)
+#3 /game.php(67): ShowResearchPage-&gt;show()
+#4 {main}
+[31-Jan-2015 08:45:55] NOTICE: "Undefined index: id"
+File: /home/astralwars/public_html/includes/classes/class.PlanetRessUpdate.php | Line: 194
+URL: https://astralwars.net/game.php?page=research | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(194): errorHandler(8, 'Undefined index...', '/home/astralwar...', 194, Array)
+#1 /includes/pages/game/class.ShowResearchPage.php(144): ResourceUpdate::getNetworkLevel(Array, Array)
+#2 /includes/pages/game/class.ShowResearchPage.php(288): ShowResearchPage-&gt;RemoveBuildingFromQueue(2)
+#3 /game.php(67): ShowResearchPage-&gt;show()
+#4 {main}
+[31-Jan-2015 08:48:52] NOTICE: "Undefined index: id"
+File: /home/astralwars/public_html/includes/classes/class.PlanetRessUpdate.php | Line: 194
+URL: https://astralwars.net/game.php?page=research | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(194): errorHandler(8, 'Undefined index...', '/home/astralwar...', 194, Array)
+#1 /includes/pages/game/class.ShowResearchPage.php(144): ResourceUpdate::getNetworkLevel(Array, Array)
+#2 /includes/pages/game/class.ShowResearchPage.php(288): ShowResearchPage-&gt;RemoveBuildingFromQueue(2)
+#3 /game.php(67): ShowResearchPage-&gt;show()
+#4 {main}
+[31-Jan-2015 10:23:29] NOTICE: "Undefined offset: 9"
+File: /home/astralwars/public_html/includes/pages/game/class.ShowBuildingsPage.php | Line: 96
+URL: https://astralwars.net/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowBuildingsPage.php(96): errorHandler(8, 'Undefined offse...', '/home/astralwar...', 96, Array)
+#1 /includes/pages/game/class.ShowBuildingsPage.php(242): ShowBuildingsPage-&gt;RemoveBuildingFromQueue(11)
+#2 /game.php(67): ShowBuildingsPage-&gt;show()
+#3 {main}
+[31-Jan-2015 10:46:07 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: No such file or directory' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/common.php(175): Language->includeData(Array)
+#3 /home/astralwars/public_html/index.php(37): require('/home/astralwar...')
+#4 {main}
+  thrown in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[31-Jan-2015 10:46:07 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[31-Jan-2015 13:38:51] USER ERROR: "SQL Error: Out of range value for column 'field_current' at row 1Query Code: LOCK TABLE uni1_planets as p WRITE, uni1_users as u WRITE;
+				   UPDATE uni1_planets as p, uni1_users as u SET
+				   p.metal = 1.08623138383E+13,
+				   p.crystal = 9.03105978534E+12,
+				   p.deuterium = 2.50144188798E+12,
+				   p.eco_hash = '8c120e1461a830030f4d63dfee869b20',
+				   p.last_update = 1422711531,
+				   p.b_building = '0',
+				   p.b_building_id = '',
+				   p.field_current = -1,
+				   p.b_hangar_id = '',
+				   p.metal_perhour = 27556598703.9,
+				   p.crystal_perhour = 22911007180,
+				   p.deuterium_perhour = 6345899811.62,
+				   p.metal_max = 9.152930325E+13,
+				   p.crystal_max = 9.152930325E+13,
+				   p.deuterium_max = 9.152930325E+13,
+				   p.energy_used = -717001.35481,
+				   p.energy = 630487786,
+				   p.b_hangar = 0, p.silo = p.silo + -1, u.darkmatter = 231250,
+					u.b_tech = '0',
+					u.b_tech_id = '0',
+					u.b_tech_planet = '0',
+					u.b_tech_queue = ''
+					WHERE
+					p.id = 15148 AND
+					u.id = 10434;
+					UNLOCK TABLES;"
+File: /home/astralwars/public_html/includes/classes/class.Database.php | Line: 275
+URL: https://astralwars.net/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(693): Database-&gt;multi_query('LOCK TABLE uni1...')
+#1 /includes/classes/class.PlanetRessUpdate.php(106): ResourceUpdate-&gt;SavePlanetToDB(Array, Array)
+#2 /includes/classes/missions/MissionCaseSpy.php(54): ResourceUpdate-&gt;CalcResource(Array, Array, true, '1422711531')
+#3 /includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy-&gt;TargetEvent()
+#4 /includes/FleetHandler.php(40): FlyingFleetHandler-&gt;run()
+#5 /includes/common.php(113): require('/home/astralwar...')
+#6 /game.php(37): require('/home/astralwar...')
+#7 {main}
+[31-Jan-2015 14:41:22] NOTICE: "Undefined offset: 911"
+File: /home/astralwars/public_html/includes/classes/class.BuildFunctions.php | Line: 271
+URL: https://astralwars.net/game.php?page=information&id=911 | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.BuildFunctions.php(271): errorHandler(8, 'Undefined offse...', '/home/astralwar...', 271, Array)
+#1 /includes/pages/game/class.ShowInformationPage.php(303): BuildFunctions::getAvalibleBonus(911)
+#2 /game.php(67): ShowInformationPage-&gt;show()
+#3 {main}
+[31-Jan-2015 16:02:08] USER ERROR: "SQL Error: Out of range value for column 'field_current' at row 1Query Code: LOCK TABLE uni1_planets as p WRITE, uni1_users as u WRITE;
+				   UPDATE uni1_planets as p, uni1_users as u SET
+				   p.metal = 1.08623138383E+13,
+				   p.crystal = 9.03105978534E+12,
+				   p.deuterium = 2.50144188798E+12,
+				   p.eco_hash = '8c120e1461a830030f4d63dfee869b20',
+				   p.last_update = 1422711531,
+				   p.b_building = '0',
+				   p.b_building_id = '',
+				   p.field_current = -1,
+				   p.b_hangar_id = '',
+				   p.metal_perhour = 27556598703.9,
+				   p.crystal_perhour = 22911007180,
+				   p.deuterium_perhour = 6345899811.62,
+				   p.metal_max = 9.152930325E+13,
+				   p.crystal_max = 9.152930325E+13,
+				   p.deuterium_max = 9.152930325E+13,
+				   p.energy_used = -717001.35481,
+				   p.energy = 630487786,
+				   p.b_hangar = 0, p.silo = p.silo + -1, u.darkmatter = 231250,
+					u.b_tech = '0',
+					u.b_tech_id = '0',
+					u.b_tech_planet = '0',
+					u.b_tech_queue = ''
+					WHERE
+					p.id = 15148 AND
+					u.id = 10434;
+					UNLOCK TABLES;"
+File: /home/astralwars/public_html/includes/classes/class.Database.php | Line: 275
+URL: https://astralwars.net/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(693): Database-&gt;multi_query('LOCK TABLE uni1...')
+#1 /includes/classes/class.PlanetRessUpdate.php(106): ResourceUpdate-&gt;SavePlanetToDB(Array, Array)
+#2 /includes/classes/missions/MissionCaseSpy.php(54): ResourceUpdate-&gt;CalcResource(Array, Array, true, '1422711531')
+#3 /includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy-&gt;TargetEvent()
+#4 /includes/FleetHandler.php(40): FlyingFleetHandler-&gt;run()
+#5 /includes/common.php(113): require('/home/astralwar...')
+#6 /game.php(37): require('/home/astralwar...')
+#7 {main}
+[31-Jan-2015 16:26:47] USER ERROR: "unmatched {block} {/block} pairs in template file 'page.overview.default.tpl'"
+File: /home/astralwars/public_html/includes/libs/Smarty/sysplugins/smarty_internal_resource_extends.php | Line: 115
+URL: https://astralwars.net/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_resource.php(779): Smarty_Internal_Resource_Extends-&gt;getContent(Object(Smarty_Template_Source))
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(185): Smarty_Template_Source-&gt;__get('content')
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#5 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#6 /includes/pages/game/class.AbstractPage.php(333): template-&gt;display('extends:layout....')
+#7 /includes/pages/game/class.ShowOverviewPage.php(277): AbstractPage-&gt;display('page.overview.d...')
+#8 /game.php(67): ShowOverviewPage-&gt;show()
+#9 {main}
+[31-Jan-2015 16:49:55] NOTICE: "Undefined offset: 911"
+File: /home/astralwars/public_html/includes/classes/class.BuildFunctions.php | Line: 271
+URL: https://astralwars.net/game.php?page=information&id=911 | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.BuildFunctions.php(271): errorHandler(8, 'Undefined offse...', '/home/astralwar...', 271, Array)
+#1 /includes/pages/game/class.ShowInformationPage.php(303): BuildFunctions::getAvalibleBonus(911)
+#2 /game.php(67): ShowInformationPage-&gt;show()
+#3 {main}
+[31-Jan-2015 20:19:30] USER ERROR: "Unable to load template extends 'layout.full.tpl|page.planetcloak.default.tpl'"
+File: /home/astralwars/public_html/includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php | Line: 127
+URL: https://astralwars.net/game.php?page=planetcloak | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#1 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#2 /includes/pages/game/class.AbstractPage.php(333): template-&gt;display('extends:layout....')
+#3 /includes/pages/game/class.ShowPlanetcloakPage.php(92): AbstractPage-&gt;display('page.planetcloa...')
+#4 /game.php(67): ShowPlanetcloakPage-&gt;show()
+#5 {main}
+[31-Jan-2015 20:25:53] USER ERROR: "SQL Error: Out of range value for column 'field_current' at row 1Query Code: LOCK TABLE uni1_planets as p WRITE, uni1_users as u WRITE;
+				   UPDATE uni1_planets as p, uni1_users as u SET
+				   p.metal = 1.10492571165E+13,
+				   p.crystal = 9.18648669956E+12,
+				   p.deuterium = 2.54449236079E+12,
+				   p.eco_hash = '8c120e1461a830030f4d63dfee869b20',
+				   p.last_update = 1422735953,
+				   p.b_building = '0',
+				   p.b_building_id = '',
+				   p.field_current = -1,
+				   p.b_hangar_id = '',
+				   p.metal_perhour = 27556598703.9,
+				   p.crystal_perhour = 22911007180,
+				   p.deuterium_perhour = 6345899811.62,
+				   p.metal_max = 9.152930325E+13,
+				   p.crystal_max = 9.152930325E+13,
+				   p.deuterium_max = 9.152930325E+13,
+				   p.energy_used = -717001.35481,
+				   p.energy = 630487786,
+				   p.b_hangar = 0, p.silo = p.silo + -1, u.darkmatter = 331250,
+					u.b_tech = '0',
+					u.b_tech_id = '0',
+					u.b_tech_planet = '0',
+					u.b_tech_queue = ''
+					WHERE
+					p.id = 15148 AND
+					u.id = 10434;
+					UNLOCK TABLES;"
+File: /home/astralwars/public_html/includes/classes/class.Database.php | Line: 275
+URL: https://astralwars.net/game.php?page=galaxy | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(693): Database-&gt;multi_query('LOCK TABLE uni1...')
+#1 /includes/classes/class.PlanetRessUpdate.php(106): ResourceUpdate-&gt;SavePlanetToDB(Array, Array)
+#2 /includes/classes/missions/MissionCaseSpy.php(54): ResourceUpdate-&gt;CalcResource(Array, Array, true, '1422735953')
+#3 /includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy-&gt;TargetEvent()
+#4 /includes/FleetHandler.php(40): FlyingFleetHandler-&gt;run()
+#5 /includes/common.php(113): require('/home/astralwar...')
+#6 /game.php(37): require('/home/astralwar...')
+#7 {main}
+[31-Jan-2015 20:32:06 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: No such file or directory' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/common.php(175): Language->includeData(Array)
+#3 /home/astralwars/public_html/index.php(37): require('/home/astralwar...')
+#4 {main}
+  thrown in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[31-Jan-2015 20:32:06 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[31-Jan-2015 20:44:36 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:44:36 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:44:37 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:44:39 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:44:40 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:44:41 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:44:43 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:44:43 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:44:44 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:44:44 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:44:45 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:44:47 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:44:47 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:44:47 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:44:48 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:44:49 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:44:49 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:44:50 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:44:50 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:44:51 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:44:51 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:44:51 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:44:51 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:44:52 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:44:52 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:44:52 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:44:52 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:44:52 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:44:53 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:44:53 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:44:53 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:44:54 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:44:54 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:44:54 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:44:54 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:44:54 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:44:57 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:44:59 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:45:00 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:45:00 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:45:01 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:45:02 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:45:02 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:45:02 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:45:03 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:45:03 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:45:04 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:45:05 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:45:05 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:45:05 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:45:07 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:45:08 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:45:08 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:45:08 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:45:08 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:45:09 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:45:09 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:45:09 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:45:09 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:45:10 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:45:10 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:45:10 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:45:10 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/en/CUSTOM.php on line 38
+[31-Jan-2015 20:45:15 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '<' in /home/astralwars/public_html/language/pl/CUSTOM.php on line 38
+[31-Jan-2015 20:46:02] USER ERROR: "Syntax Error in template &quot;/home/astralwars/public_html/styles/templates/game/main.navigation.tpl&quot;  on line 9 &quot;&amp;lt;li class=&amp;quot;&quot; unclosed {if} tag"
+File: /home/astralwars/public_html/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: https://astralwars.net/game.php?page=overview | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(118): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('unclosed {if} t...')
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('/t/t/n/t/t&lt;!-- Note:...')
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_compile_include.php(146): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Include-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('include', Array, Array)
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2388): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('include', Array)
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r36()
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(36)
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '/n')
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#13 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#14 /includes/pages/game/class.AbstractPage.php(333): template-&gt;display('extends:layout....')
+#15 /includes/pages/game/class.ShowOverviewPage.php(277): AbstractPage-&gt;display('page.overview.d...')
+#16 /game.php(67): ShowOverviewPage-&gt;show()
+#17 {main}
+[31-Jan-2015 20:54:52] USER ERROR: "SQL Error: Out of range value for column 'field_current' at row 1Query Code: LOCK TABLE uni1_planets as p WRITE, uni1_users as u WRITE;
+				   UPDATE uni1_planets as p, uni1_users as u SET
+				   p.metal = 1.10492571165E+13,
+				   p.crystal = 9.18648669956E+12,
+				   p.deuterium = 2.54449236079E+12,
+				   p.eco_hash = '8c120e1461a830030f4d63dfee869b20',
+				   p.last_update = 1422735953,
+				   p.b_building = '0',
+				   p.b_building_id = '',
+				   p.field_current = -1,
+				   p.b_hangar_id = '',
+				   p.metal_perhour = 27556598703.9,
+				   p.crystal_perhour = 22911007180,
+				   p.deuterium_perhour = 6345899811.62,
+				   p.metal_max = 9.152930325E+13,
+				   p.crystal_max = 9.152930325E+13,
+				   p.deuterium_max = 9.152930325E+13,
+				   p.energy_used = -717001.35481,
+				   p.energy = 630487786,
+				   p.b_hangar = 0, p.silo = p.silo + -1, u.darkmatter = 331250,
+					u.b_tech = '0',
+					u.b_tech_id = '0',
+					u.b_tech_planet = '0',
+					u.b_tech_queue = ''
+					WHERE
+					p.id = 15148 AND
+					u.id = 10434;
+					UNLOCK TABLES;"
+File: /home/astralwars/public_html/includes/classes/class.Database.php | Line: 275
+URL: https://astralwars.net/game.php?page=messages | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(693): Database-&gt;multi_query('LOCK TABLE uni1...')
+#1 /includes/classes/class.PlanetRessUpdate.php(106): ResourceUpdate-&gt;SavePlanetToDB(Array, Array)
+#2 /includes/classes/missions/MissionCaseSpy.php(54): ResourceUpdate-&gt;CalcResource(Array, Array, true, '1422735953')
+#3 /includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy-&gt;TargetEvent()
+#4 /includes/FleetHandler.php(40): FlyingFleetHandler-&gt;run()
+#5 /includes/common.php(113): require('/home/astralwar...')
+#6 /game.php(37): require('/home/astralwar...')
+#7 {main}
+[31-Jan-2015 20:55:10] USER ERROR: "SQL Error: Out of range value for column 'field_current' at row 1Query Code: LOCK TABLE uni1_planets as p WRITE, uni1_users as u WRITE;
+				   UPDATE uni1_planets as p, uni1_users as u SET
+				   p.metal = 1.10492571165E+13,
+				   p.crystal = 9.18648669956E+12,
+				   p.deuterium = 2.54449236079E+12,
+				   p.eco_hash = '8c120e1461a830030f4d63dfee869b20',
+				   p.last_update = 1422735953,
+				   p.b_building = '0',
+				   p.b_building_id = '',
+				   p.field_current = -1,
+				   p.b_hangar_id = '',
+				   p.metal_perhour = 27556598703.9,
+				   p.crystal_perhour = 22911007180,
+				   p.deuterium_perhour = 6345899811.62,
+				   p.metal_max = 9.152930325E+13,
+				   p.crystal_max = 9.152930325E+13,
+				   p.deuterium_max = 9.152930325E+13,
+				   p.energy_used = -717001.35481,
+				   p.energy = 630487786,
+				   p.b_hangar = 0, p.silo = p.silo + -1, u.darkmatter = 331250,
+					u.b_tech = '0',
+					u.b_tech_id = '0',
+					u.b_tech_planet = '0',
+					u.b_tech_queue = ''
+					WHERE
+					p.id = 15148 AND
+					u.id = 10434;
+					UNLOCK TABLES;"
+File: /home/astralwars/public_html/includes/classes/class.Database.php | Line: 275
+URL: https://astralwars.net/game.php?page=galaxy | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(693): Database-&gt;multi_query('LOCK TABLE uni1...')
+#1 /includes/classes/class.PlanetRessUpdate.php(106): ResourceUpdate-&gt;SavePlanetToDB(Array, Array)
+#2 /includes/classes/missions/MissionCaseSpy.php(54): ResourceUpdate-&gt;CalcResource(Array, Array, true, '1422735953')
+#3 /includes/classes/class.FlyingFleetHandler.php(80): MissionCaseSpy-&gt;TargetEvent()
+#4 /includes/FleetHandler.php(40): FlyingFleetHandler-&gt;run()
+#5 /includes/common.php(113): require('/home/astralwar...')
+#6 /game.php(37): require('/home/astralwar...')
+#7 {main}
+[31-Jan-2015 22:12:52 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: No such file or directory' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/common.php(175): Language->includeData(Array)
+#3 /home/astralwars/public_html/index.php(37): require('/home/astralwar...')
+#4 {main}
+  thrown in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[31-Jan-2015 22:12:52 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[31-Jan-2015 22:32:17 Europe/Lisbon] PHP Fatal error:  Call to undefined method statbuilder::GetFleetPoints() in /home/astralwars/public_html/includes/classes/class.statbuilder.php on line 405
+[31-Jan-2015 22:49:53 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: No such file or directory' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/common.php(175): Language->includeData(Array)
+#3 /home/astralwars/public_html/index.php(37): require('/home/astralwar...')
+#4 {main}
+  thrown in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[31-Jan-2015 22:49:53 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[31-Jan-2015 23:00:06] NOTICE: "Undefined variable: FleetPoints"
+File: /home/astralwars/public_html/includes/classes/class.statbuilder.php | Line: 408
+URL: https://astralwars.net/cronjob.php?cronjobID=2 | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/class.statbuilder.php(408): errorHandler(8, 'Undefined varia...', '/home/astralwar...', 408, Array)
+#1 /includes/classes/cronjob/StatisticCronjob.class.php(37): statbuilder-&gt;MakeStats()
+#2 /includes/classes/Cronjob.class.php(53): StatisticCronjob-&gt;run()
+#3 /cronjob.php(36): Cronjob::execute(2)
+#4 {main}
+[31-Jan-2015 23:02:31 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: No such file or directory' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/common.php(175): Language->includeData(Array)
+#3 /home/astralwars/public_html/index.php(37): require('/home/astralwar...')
+#4 {main}
+  thrown in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[31-Jan-2015 23:02:31 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[31-Jan-2015 23:05:18] NOTICE: "Undefined index: auth_user"
+File: /home/astralwars/public_html/includes/pages/game/class.ShowBlackMarketPage.php | Line: 26
+URL: https://astralwars.net/game.php?page=blackMarket | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowBlackMarketPage.php(26): errorHandler(8, 'Undefined index...', '/home/astralwar...', 26, Array)
+#1 /game.php(67): ShowBlackMarketPage-&gt;show()
+#2 {main}
+[31-Jan-2015 23:05:35] NOTICE: "Undefined index: authuser"
+File: /home/astralwars/public_html/includes/pages/game/class.ShowBlackMarketPage.php | Line: 26
+URL: https://astralwars.net/game.php?page=blackMarket | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowBlackMarketPage.php(26): errorHandler(8, 'Undefined index...', '/home/astralwar...', 26, Array)
+#1 /game.php(67): ShowBlackMarketPage-&gt;show()
+#2 {main}
+[31-Jan-2015 23:06:05 Europe/Lisbon] PHP Fatal error:  Class 'ShowBlackMarketPage' not found in /home/astralwars/public_html/game.php on line 51
+[31-Jan-2015 23:10:15 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: No such file or directory' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/common.php(175): Language->includeData(Array)
+#3 /home/astralwars/public_html/index.php(37): require('/home/astralwar...')
+#4 {main}
+  thrown in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[31-Jan-2015 23:10:15 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[31-Jan-2015 23:41:57 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: No such file or directory' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/common.php(175): Language->includeData(Array)
+#3 /home/astralwars/public_html/index.php(37): require('/home/astralwar...')
+#4 {main}
+  thrown in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[31-Jan-2015 23:41:57 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[01-Feb-2015 00:47:30 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: No such file or directory' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/common.php(175): Language->includeData(Array)
+#3 /home/astralwars/public_html/index.php(37): require('/home/astralwar...')
+#4 {main}
+  thrown in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[01-Feb-2015 00:47:30 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[01-Feb-2015 01:42:50] NOTICE: "Undefined index: bm_RessPack1_time"
+File: /home/astralwars/public_html/includes/pages/game/class.ShowBlackMarketPage.php | Line: 526
+URL: https://astralwars.net/game.php?page=blackMarket&vars=0 | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowBlackMarketPage.php(526): errorHandler(8, 'Undefined index...', '/home/astralwar...', 526, Array)
+#1 /game.php(67): ShowBlackMarketPage-&gt;show()
+#2 {main}
+[01-Feb-2015 01:43:38] NOTICE: "Undefined index: bm_RessPack1_time"
+File: /home/astralwars/public_html/includes/pages/game/class.ShowBlackMarketPage.php | Line: 526
+URL: https://astralwars.net/game.php?page=blackMarket&vars=0 | Version: 1.7.2676
+Stack trace:
+#0 /includes/pages/game/class.ShowBlackMarketPage.php(526): errorHandler(8, 'Undefined index...', '/home/astralwar...', 526, Array)
+#1 /game.php(67): ShowBlackMarketPage-&gt;show()
+#2 {main}
+[01-Feb-2015 01:58:57 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: No such file or directory' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/common.php(175): Language->includeData(Array)
+#3 /home/astralwars/public_html/index.php(37): require('/home/astralwar...')
+#4 {main}
+  thrown in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[01-Feb-2015 01:58:57 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[01-Feb-2015 02:04:15 Europe/Lisbon] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(language//L18N.php): failed to open stream: No such file or directory' in /home/astralwars/public_html/includes/classes/Language.class.php:148
+Stack trace:
+#0 /home/astralwars/public_html/includes/classes/Language.class.php(148): errorHandler(2, 'require(languag...', '/home/astralwar...', 148, Array)
+#1 /home/astralwars/public_html/includes/classes/Language.class.php(148): Language->includeData()
+#2 /home/astralwars/public_html/includes/common.php(175): Language->includeData(Array)
+#3 /home/astralwars/public_html/index.php(37): require('/home/astralwar...')
+#4 {main}
+  thrown in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[01-Feb-2015 02:04:15 Europe/Lisbon] PHP Fatal error:  Language::includeData(): Failed opening required 'language//L18N.php' (include_path='/home/astralwars/public_html/') in /home/astralwars/public_html/includes/classes/Language.class.php on line 148
+[01-Feb-2015 02:10:42] USER ERROR: "Syntax Error in template &quot;/home/astralwars/public_html/styles/templates/game/main.navigation.tpl&quot;  on line 94 &quot;&quot; unclosed {else} tag"
+File: /home/astralwars/public_html/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: https://astralwars.net/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(118): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('unclosed {else}...')
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('/t/t/n/t/t&lt;!-- Note:...')
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_compile_include.php(146): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Include-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('include', Array, Array)
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2388): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('include', Array)
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r36()
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(36)
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '/n')
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#13 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#14 /includes/pages/game/class.AbstractPage.php(334): template-&gt;display('extends:layout....')
+#15 /includes/pages/game/class.ShowBuildingsPage.php(341): AbstractPage-&gt;display('page.buildings....')
+#16 /game.php(67): ShowBuildingsPage-&gt;show()
+#17 {main}
+[01-Feb-2015 02:10:42] USER ERROR: "Syntax Error in template &quot;/home/astralwars/public_html/styles/templates/game/main.navigation.tpl&quot;  on line 94 &quot;&quot; unclosed {else} tag"
+File: /home/astralwars/public_html/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: https://astralwars.net/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(118): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('unclosed {else}...')
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('/t/t/n/t/t&lt;!-- Note:...')
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_compile_include.php(146): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Include-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('include', Array, Array)
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2388): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('include', Array)
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r36()
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(36)
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '/n')
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#13 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#14 /includes/pages/game/class.AbstractPage.php(334): template-&gt;display('extends:layout....')
+#15 /includes/pages/game/class.ShowBuildingsPage.php(341): AbstractPage-&gt;display('page.buildings....')
+#16 /game.php(67): ShowBuildingsPage-&gt;show()
+#17 {main}
+[01-Feb-2015 02:10:42] USER ERROR: "Syntax Error in template &quot;/home/astralwars/public_html/styles/templates/game/main.navigation.tpl&quot;  on line 94 &quot;&quot; unclosed {else} tag"
+File: /home/astralwars/public_html/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: https://astralwars.net/game.php?page=vote | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(118): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('unclosed {else}...')
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('/t/t/n/t/t&lt;!-- Note:...')
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_compile_include.php(146): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Include-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('include', Array, Array)
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2388): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('include', Array)
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r36()
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(36)
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '/n')
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#13 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#14 /includes/pages/game/class.AbstractPage.php(334): template-&gt;display('extends:layout....')
+#15 /includes/pages/game/class.ShowVotePage.php(75): AbstractPage-&gt;display('page.reward.def...')
+#16 /game.php(67): ShowVotePage-&gt;show()
+#17 {main}
+[01-Feb-2015 02:10:43] USER ERROR: "Syntax Error in template &quot;/home/astralwars/public_html/styles/templates/game/main.navigation.tpl&quot;  on line 94 &quot;&quot; unclosed {else} tag"
+File: /home/astralwars/public_html/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: https://astralwars.net/game.php?page=blackMarket | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(118): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('unclosed {else}...')
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('/t/t/n/t/t&lt;!-- Note:...')
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_compile_include.php(146): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Include-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('include', Array, Array)
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2388): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('include', Array)
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r36()
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(36)
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '/n')
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#13 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#14 /includes/pages/game/class.AbstractPage.php(334): template-&gt;display('extends:layout....')
+#15 /includes/pages/game/class.ShowBlackMarketPage.php(585): AbstractPage-&gt;display('page.blackmarke...')
+#16 /game.php(67): ShowBlackMarketPage-&gt;show()
+#17 {main}
+[01-Feb-2015 02:10:47] USER ERROR: "Syntax Error in template &quot;/home/astralwars/public_html/styles/templates/game/main.navigation.tpl&quot;  on line 94 &quot;&quot; unclosed {else} tag"
+File: /home/astralwars/public_html/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: https://astralwars.net/game.php?page=shipyard&mode=defense | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(118): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('unclosed {else}...')
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('/t/t/n/t/t&lt;!-- Note:...')
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_compile_include.php(146): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Include-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('include', Array, Array)
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2388): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('include', Array)
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r36()
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(36)
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '/n')
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#13 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#14 /includes/pages/game/class.AbstractPage.php(334): template-&gt;display('extends:layout....')
+#15 /includes/pages/game/class.ShowShipyardPage.php(274): AbstractPage-&gt;display('page.shipyard.d...')
+#16 /game.php(67): ShowShipyardPage-&gt;show()
+#17 {main}
+[01-Feb-2015 02:10:47] USER ERROR: "Syntax Error in template &quot;/home/astralwars/public_html/styles/templates/game/main.navigation.tpl&quot;  on line 94 &quot;&quot; unclosed {else} tag"
+File: /home/astralwars/public_html/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: https://astralwars.net/game.php?page=vote | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(118): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('unclosed {else}...')
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('/t/t/n/t/t&lt;!-- Note:...')
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_compile_include.php(146): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Include-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('include', Array, Array)
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2388): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('include', Array)
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r36()
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(36)
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '/n')
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#13 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#14 /includes/pages/game/class.AbstractPage.php(334): template-&gt;display('extends:layout....')
+#15 /includes/pages/game/class.ShowVotePage.php(75): AbstractPage-&gt;display('page.reward.def...')
+#16 /game.php(67): ShowVotePage-&gt;show()
+#17 {main}
+[01-Feb-2015 02:10:48] USER ERROR: "Syntax Error in template &quot;/home/astralwars/public_html/styles/templates/game/main.navigation.tpl&quot;  on line 94 &quot;&quot; unclosed {else} tag"
+File: /home/astralwars/public_html/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: https://astralwars.net/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(118): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('unclosed {else}...')
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('/t/t/n/t/t&lt;!-- Note:...')
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_compile_include.php(146): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Include-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('include', Array, Array)
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2388): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('include', Array)
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r36()
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(36)
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '/n')
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#13 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#14 /includes/pages/game/class.AbstractPage.php(334): template-&gt;display('extends:layout....')
+#15 /includes/pages/game/class.ShowBuildingsPage.php(341): AbstractPage-&gt;display('page.buildings....')
+#16 /game.php(67): ShowBuildingsPage-&gt;show()
+#17 {main}
+[01-Feb-2015 02:10:50] USER ERROR: "Syntax Error in template &quot;/home/astralwars/public_html/styles/templates/game/main.navigation.tpl&quot;  on line 94 &quot;&quot; unclosed {else} tag"
+File: /home/astralwars/public_html/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: https://astralwars.net/game.php?page=buildings | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(118): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('unclosed {else}...')
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('/t/t/n/t/t&lt;!-- Note:...')
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_compile_include.php(146): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Include-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('include', Array, Array)
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2388): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('include', Array)
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r36()
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(36)
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '/n')
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#13 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#14 /includes/pages/game/class.AbstractPage.php(334): template-&gt;display('extends:layout....')
+#15 /includes/pages/game/class.ShowBuildingsPage.php(341): AbstractPage-&gt;display('page.buildings....')
+#16 /game.php(67): ShowBuildingsPage-&gt;show()
+#17 {main}
+[01-Feb-2015 02:38:44] USER ERROR: "Invalid address: "
+File: /home/astralwars/public_html/includes/libs/phpmailer/class.phpmailer.php | Line: 700
+URL: https://astralwars.net/admin.php?page=globalmessage&action=send&ajax=1 | Version: 1.7.2676
+Stack trace:
+#0 /includes/classes/Mail.class.php(57): PHPMailer-&gt;SetFrom('', 'Astral Wars')
+#1 /includes/pages/adm/ShowSendMessagesPage.php(85): Mail::multiSend(Array, 'Global News')
+#2 /admin.php(121): ShowSendMessagesPage()
+#3 {main}
+[01-Feb-2015 12:35:55] USER ERROR: "Connection to database failed: Access denied for user 'astralwars'@'localhost' (using password: YES)"
+File: C:\Wamp\www\Astral\includes\classes\class.Database.php | Line: 58
+URL: http://local.dev/Astral/ | Version: 1.7.2749 (FILE)
+Stack trace:
+#0 /includes/common.php(89): Database-&gt;__construct()
+#1 /index.php(37): require('C://Wamp//www//Ast...')
+#2 {main}
+[01-Feb-2015 12:38:34] USER ERROR: "Connection to database failed: Access denied for user 'astralwars'@'localhost' (using password: YES)"
+File: C:\Wamp\www\Astral\includes\classes\class.Database.php | Line: 58
+URL: http://local.dev/Astral/ | Version: 1.7.2749 (FILE)
+Stack trace:
+#0 /includes/common.php(89): Database-&gt;__construct()
+#1 /index.php(37): require('C://Wamp//www//Ast...')
+#2 {main}
+[03-Feb-2015 18:40:27] USER ERROR: "SQL Error: No database selectedQuery Code: SELECT * FROM uni1_config;"
+File: C:\Wamp\www\awars\includes\classes\class.Database.php | Line: 81
+URL: http://local.dev/awars/ | Version: UNKNOWN
+Stack trace:
+#0 /includes/classes/Config.class.php(37): Database-&gt;query('SELECT * FROM u...')
+#1 /includes/common.php(92): Config::init()
+#2 /index.php(37): require('C://Wamp//www//awa...')
+#3 {main}
+[03-Feb-2015 18:49:11] USER ERROR: "Syntax Error in template &quot;C:\Wamp\www\awars\styles\templates\login\main.header.tpl&quot;  on line 10 &quot;&amp;lt;title&amp;gt;{block}{$gameName}{/block}&amp;lt;/title&amp;gt;&quot; missing &quot;name&quot; attribute"
+File: C:\Wamp\www\awars\includes\libs\Smarty\sysplugins\smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://local.dev/awars/ | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_compilebase.php(105): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error('missing &quot;name&quot; ...', 10)
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_compile_block.php(54): Smarty_Internal_CompileBase-&gt;getAttributes(Object(Smarty_Internal_SmartyTemplateCompiler), Array)
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Block-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('block', Array, Array)
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2393): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('block', Array)
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r37()
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(37)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(16, '{')
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('&lt;!DOCTYPE html&gt;...')
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_compile_include.php(146): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Include-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('include', Array, Array)
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2388): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('include', Array)
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r36()
+#14 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(36)
+#15 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '/n')
+#16 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#17 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#18 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#19 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#20 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#21 /includes/pages/login/AbstractPage.class.php(154): template-&gt;display('extends:layout....')
+#22 /includes/pages/login/ShowIndexPage.class.php(91): AbstractPage-&gt;render('page.index.defa...')
+#23 /index.php(67): ShowIndexPage-&gt;show()
+#24 {main}
+[03-Feb-2015 19:36:47] NOTICE: "Undefined index: externalAuth"
+File: C:\Wamp\www\awars\cache\pt^ecf215debffd9104ad4cdc01fed530259ac7c7d8.extends.page.index.default.tpl.cache.php | Line: 271
+URL: http://local.dev/awars/index.php | Version: 1.7.2676
+Stack trace:
+#0 /cache/pt^ecf215debffd9104ad4cdc01fed530259ac7c7d8.extends.page.index.default.tpl.cache.php(271): errorHandler(8, 'Undefined index...', 'C://Wamp//www//awa...', 271, Array)
+#1 /cache/pt^ecf215debffd9104ad4cdc01fed530259ac7c7d8.extends.page.index.default.tpl.cache.php(116): content_54d1234fb2d093_50273431(Object(Smarty_Internal_Template))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(180): content_54d116aa47e854_74129830(Object(Smarty_Internal_Template))
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#4 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#5 /includes/pages/login/AbstractPage.class.php(154): template-&gt;display('extends:layout....')
+#6 /includes/pages/login/ShowIndexPage.class.php(91): AbstractPage-&gt;render('page.index.defa...')
+#7 /index.php(67): ShowIndexPage-&gt;show()
+#8 {main}
+[03-Feb-2015 19:58:24] USER ERROR: "Syntax Error in template &quot;C:\Wamp\www\awars\styles\templates\login\page.register.default.tpl&quot;   &quot;{block class=&amp;quot;form-control&amp;quot;  name=&amp;quot;title&amp;quot; prepend}&quot; illegal options"
+File: C:\Wamp\www\awars\includes\libs\Smarty\sysplugins\smarty_internal_compile_block.php | Line: 88
+URL: http://local.dev/awars/index.php?page=register | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_resource_extends.php(140): Smarty_Internal_Compile_Block::saveBlockData('{$LNG.siteTitle...', '{block class=&quot;f...', Object(Smarty_Internal_Template), 'C://Wamp//www//awa...')
+#1 /includes/libs/Smarty/sysplugins/smarty_resource.php(779): Smarty_Internal_Resource_Extends-&gt;getContent(Object(Smarty_Template_Source))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(185): Smarty_Template_Source-&gt;__get('content')
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#6 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#7 /includes/pages/login/AbstractPage.class.php(154): template-&gt;display('extends:layout....')
+#8 /includes/pages/login/ShowRegisterPage.class.php(100): AbstractPage-&gt;render('page.register.d...')
+#9 /index.php(67): ShowRegisterPage-&gt;show()
+#10 {main}
+[03-Feb-2015 19:58:26] USER ERROR: "Syntax Error in template &quot;C:\Wamp\www\awars\styles\templates\login\page.register.default.tpl&quot;   &quot;{block class=&amp;quot;form-control&amp;quot;  name=&amp;quot;title&amp;quot; prepend}&quot; illegal options"
+File: C:\Wamp\www\awars\includes\libs\Smarty\sysplugins\smarty_internal_compile_block.php | Line: 88
+URL: http://local.dev/awars/index.php?page=register | Version: 1.7.2676
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_resource_extends.php(140): Smarty_Internal_Compile_Block::saveBlockData('{$LNG.siteTitle...', '{block class=&quot;f...', Object(Smarty_Internal_Template), 'C://Wamp//www//awa...')
+#1 /includes/libs/Smarty/sysplugins/smarty_resource.php(779): Smarty_Internal_Resource_Extends-&gt;getContent(Object(Smarty_Template_Source))
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(185): Smarty_Template_Source-&gt;__get('content')
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#6 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#7 /includes/pages/login/AbstractPage.class.php(154): template-&gt;display('extends:layout....')
+#8 /includes/pages/login/ShowRegisterPage.class.php(100): AbstractPage-&gt;render('page.register.d...')
+#9 /index.php(67): ShowRegisterPage-&gt;show()
+#10 {main}
