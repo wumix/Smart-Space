@@ -6,7 +6,7 @@
 <!--[if IE 9 ]>    <html lang="{$lang}" class="no-js ie9"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="{$lang}" class="no-js"> <!--<![endif]-->
 <head>
-	<title>Astral Wars</title>
+	<title>Smart-Space</title>
 	<meta name="generator" content="2Moons {$VERSION}">
 	{if !empty($goto)}
 	<meta http-equiv="refresh" content="{$gotoinsec};URL={$goto}">
