@@ -27,16 +27,16 @@
 					</div>
 					<ul class="item-list-left">
 						<li> <i class="icon icon-support color"></i>
-							<h4 class="color">A new Civilization</h4>
-							<p>You start out with just one undeveloped world and turn that into a mighty empire able to defend your hard earned colonies.</p>
+							<h4 class="color">Eine neue Zivilisation</h4>
+							<p>Du Startest mit einer unterentwickelten Welt, und errichtest auf dieser ein Imperium. Gründest Kolonien und verteidigst diese.</p>
 						</li>
 						<li> <i class="icon icon-equalizer color"></i>
-							<h4 class="color">Stunning flexibility</h4>
-							<p>Create an economic and military infrastructure to support your quest for the next greatest technological achievements.</p>
+							<h4 class="color">Atemberaubende Flexibilität</h4>
+							<p>Erstelle eine wirtschaftliche und militärische Infrastruktur, auf der Suche nach den nächsten größten technologischen Errungenschaften um dein Reich an die Spitze zu bringen.</p>
 						</li>
 						<li> <i class="icon icon-bar-chart color"></i>
-							<h4 class="color">What are you?</h4>
-							<p>Will you terrorize the area around you? Or will you strike fear into the hearts of those who attack the helpless?</p>
+							<h4 class="color">Wer bist du?</h4>
+							<p>Bist du der der sein Umfeld terrorisieren wird? Oder wirst du denen die hilflose angreifen zeigen was Angst ist?</p>
 						</li>
 					</ul>
 				</div>
