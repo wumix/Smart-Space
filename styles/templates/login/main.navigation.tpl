@@ -5,7 +5,7 @@
 			<div class="collapse navbar-collapse navMenuCollapse">
 				<ul class="nav">
 			<li><a href="index.php">{$LNG.menu_index}</a></li>
-			<li><a href="http://endlessuni.com">Buy {$gameName}</a></li>
+			<li><a href="http://smartmoons.xyz">Erstelle dein eigenes {$gameName}</a></li>
 			<li><a href="index.php?page=board" target="board">{$LNG.forum}</a></li>
 			<li><a href="index.php?page=news">{$LNG.menu_news}</a></li>
 			<li><a href="index.php?page=rules">{$LNG.menu_rules}</a></li>
