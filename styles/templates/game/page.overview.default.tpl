@@ -1,13 +1,50 @@
 {block name="title" prepend}{$LNG.lm_overview}{/block}
 {block name="script" append}{/block}
 {block name="content"}
-{if $hasAdminAccess}
-<div class="alert alert-danger fade in alert-dismisable">
-<div class="globalWarning">
-{$LNG.admin_access_1} <a id="drop-admin">{$LNG.admin_access_link}</a>{$LNG.admin_access_2}
-</div>
-</div>
-{/if}
+
+	{if $is_news}
+						<!-- start row -->
+				
+					<div class="row">
+				
+						<div class="col-sm-12">
+							<div class="alert alert-success alert-block">
+								<a class="close" data-dismiss="alert" href="#">×</a>
+								<h4 class="alert-heading">{$LNG.ov_news}!</h4>
+								{$news}		
+							</div>
+				
+						</div>
+				
+					</div>								
+					{/if}
+				<!-- end row-->
+	{if $hasAdminAccess}
+							<!-- start row -->
+				
+					<div class="row">
+				
+						<div class="col-sm-12">
+							<div class="alert alert-danger alert-block">
+								<a class="close" data-dismiss="alert" href="#">×</a>
+								<h4 class="alert-heading">Warnung!</h4>
+								{$LNG.admin_access_1}
+								<a id="drop-admin" href="game.php?page=overview">
+								{$LNG.admin_access_link}
+								</a>
+									{$LNG.admin_access_2}
+								<p class="text-align-left">
+									<br>
+									<a id="drop-admin" class="btn btn-sm btn-default" href="game.php?page=overview"><strong>{$LNG.admin_access_link}</strong></a>
+								</p>
+							</div>
+				
+						</div>
+				
+					</div>						
+					{/if}
+				<!-- end row-->
+				
 {if !empty($fleets)}
 <div class="jarviswidget  jarviswidget-sortable jarviswidget-color-blueDark" id="wid-id-2" data-widget-editbutton="false" role="widget" data-widget-attstyle="jarviswidget-color-blueDark">
 	<!-- widget div-->
