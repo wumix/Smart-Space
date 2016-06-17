@@ -1,13 +1,14 @@
+
 -- phpMyAdmin SQL Dump
--- version 4.0.10.7
+-- version 3.5.2.2
 -- http://www.phpmyadmin.net
 --
--- Máquina: localhost
--- Data de Criação: 02-Fev-2015 às 02:48
--- Versão do servidor: 5.5.40-cll
--- versão do PHP: 5.4.23
+-- Host: localhost
+-- Erstellungszeit: 17. Jun 2016 um 09:10
+-- Server Version: 10.0.20-MariaDB
+-- PHP-Version: 5.2.17
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 
@@ -17,13 +18,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Base de Dados: `SmartMoons_2`
+-- Datenbank: `u510247246_sp`
 --
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_aks`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_aks`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_aks` (
@@ -37,7 +38,7 @@ CREATE TABLE IF NOT EXISTS `uni1_aks` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_alliance`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_alliance`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_alliance` (
@@ -64,12 +65,12 @@ CREATE TABLE IF NOT EXISTS `uni1_alliance` (
   KEY `ally_tag` (`ally_tag`),
   KEY `ally_name` (`ally_name`),
   KEY `ally_universe` (`ally_universe`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_alliance_ranks`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_alliance_ranks`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_alliance_ranks` (
@@ -90,12 +91,12 @@ CREATE TABLE IF NOT EXISTS `uni1_alliance_ranks` (
   `EVENTS` tinyint(3) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`rankID`),
   KEY `allianceID` (`allianceID`,`rankID`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_alliance_request`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_alliance_request`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_alliance_request` (
@@ -106,12 +107,12 @@ CREATE TABLE IF NOT EXISTS `uni1_alliance_request` (
   `time` int(11) NOT NULL,
   PRIMARY KEY (`applyID`),
   KEY `allianceID` (`allianceID`,`userID`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_auctions`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_auctions`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_auctions` (
@@ -130,7 +131,7 @@ CREATE TABLE IF NOT EXISTS `uni1_auctions` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_banned`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_banned`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_banned` (
@@ -149,7 +150,7 @@ CREATE TABLE IF NOT EXISTS `uni1_banned` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_buddy`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_buddy`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_buddy` (
@@ -160,12 +161,19 @@ CREATE TABLE IF NOT EXISTS `uni1_buddy` (
   PRIMARY KEY (`id`),
   KEY `universe` (`universe`),
   KEY `sender` (`sender`,`owner`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+
+--
+-- Daten fÃ¼r Tabelle `uni1_buddy`
+--
+
+INSERT INTO `uni1_buddy` (`id`, `sender`, `owner`, `universe`) VALUES
+(1, 1, 10677, 1);
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_buddy_request`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_buddy_request`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_buddy_request` (
@@ -177,7 +185,7 @@ CREATE TABLE IF NOT EXISTS `uni1_buddy_request` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_chat_bans`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_chat_bans`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_chat_bans` (
@@ -190,7 +198,7 @@ CREATE TABLE IF NOT EXISTS `uni1_chat_bans` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_chat_invitations`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_chat_invitations`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_chat_invitations` (
@@ -202,7 +210,7 @@ CREATE TABLE IF NOT EXISTS `uni1_chat_invitations` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_chat_messages`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_chat_messages`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_chat_messages` (
@@ -220,7 +228,7 @@ CREATE TABLE IF NOT EXISTS `uni1_chat_messages` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_chat_online`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_chat_online`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_chat_online` (
@@ -236,7 +244,7 @@ CREATE TABLE IF NOT EXISTS `uni1_chat_online` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_config`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_config`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_config` (
@@ -383,16 +391,16 @@ CREATE TABLE IF NOT EXISTS `uni1_config` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
 --
--- Extraindo dados da tabela `uni1_config`
+-- Daten fÃ¼r Tabelle `uni1_config`
 --
 
 INSERT INTO `uni1_config` (`uni`, `VERSION`, `sql_revision`, `rules`, `users_amount`, `game_speed`, `fleet_speed`, `resource_multiplier`, `halt_speed`, `Fleet_Cdr`, `Defs_Cdr`, `initial_fields`, `uni_name`, `game_name`, `game_disable`, `close_reason`, `darkmatter_basic_income`, `metal_basic_income`, `crystal_basic_income`, `deuterium_basic_income`, `energy_basic_income`, `LastSettedGalaxyPos`, `LastSettedSystemPos`, `LastSettedPlanetPos`, `noobprotection`, `noobprotectiontime`, `noobprotectionmulti`, `forum_url`, `adm_attack`, `debug`, `lang`, `stat`, `stat_level`, `stat_last_update`, `stat_settings`, `stat_update_time`, `stat_last_db_update`, `stats_fly_lock`, `cron_lock`, `ts_modon`, `ts_server`, `ts_tcpport`, `ts_udpport`, `ts_timeout`, `ts_version`, `ts_cron_last`, `ts_cron_interval`, `ts_login`, `ts_password`, `reg_closed`, `OverviewNewsFrame`, `OverviewNewsText`, `capaktiv`, `cappublic`, `capprivate`, `min_build_time`, `mail_active`, `mail_use`, `smtp_host`, `smtp_port`, `smtp_user`, `smtp_pass`, `smtp_ssl`, `smtp_sendmail`, `smail_path`, `user_valid`, `fb_on`, `fb_apikey`, `fb_skey`, `ga_active`, `ga_key`, `moduls`, `trade_allowed_ships`, `trade_charge`, `chat_closed`, `chat_allowchan`, `chat_allowmes`, `chat_allowdelmes`, `chat_logmessage`, `chat_nickchange`, `chat_botname`, `chat_channelname`, `chat_socket_active`, `chat_socket_host`, `chat_socket_ip`, `chat_socket_port`, `chat_socket_chatid`, `max_galaxy`, `max_system`, `max_planets`, `planet_factor`, `max_elements_build`, `max_elements_tech`, `max_elements_ships`, `min_player_planets`, `planets_tech`, `planets_officier`, `planets_per_tech`, `max_fleet_per_build`, `deuterium_cost_galaxy`, `max_dm_missions`, `max_overflow`, `moon_factor`, `moon_chance`, `darkmatter_cost_trader`, `factor_university`, `max_fleets_per_acs`, `debris_moon`, `vmode_min_time`, `gate_wait_time`, `metal_start`, `crystal_start`, `deuterium_start`, `darkmatter_start`, `ttf_file`, `ref_active`, `ref_bonus`, `ref_minpoints`, `ref_max_referals`, `del_oldstuff`, `del_user_manually`, `del_user_automatic`, `del_user_sendmail`, `sendmail_inactive`, `silo_factor`, `timezone`, `dst`, `energySpeed`, `disclamerAddress`, `disclamerPhone`, `disclamerMail`, `disclamerNotice`, `alliance_create_min_points`, `auction_reset_time`, `compendium_donated`, `compendium`, `compendium_m`, `compendium_c`, `compendium_d`) VALUES
-(1, '1.7.2676', 0, '<h2>SmartMoons Helper</h2>\n\n<p align="left">\n\nAccepting playing on SmartMoons, you accept also that the moderators are authorized to check online users, control messages (detection of spammers or bad behaviour), edit accounts, edit game configurations or, in last case, punish a player.<br><br>\n\nBashing Rules<br>\n<ul>\n<li>You are able to attack the same user</li>\n<li>In case of <font color="yellow">Alliance War</font>, Bashing rule is <font color="yellow">disabled</font></li>\n<li>Attack the same planet/moon more than 6 times, the <font color="yellow">player is punished</font></li>\n<li>You are able to attack 6 times the <font color="yellow">same planet</font>, of the same user (eg. You attack a planet from Admin on 1:1:1, after 6 times, you can not attack more, but you can attack other planet.)</li>\n<li>You are able to attack 6 times the <font color="yellow">same moon</font>, of the same user  (eg. You attack a moon from Admin on 1:1:1, after 6 times, you can not attack more, but you can attack other planet.)</li>\n</ul><br><br>\n\nBan Rules<br>\n<ul>\n<li>Bashing: Ban for 6 hours (Vacation mode enabled)</li>\n<li>Bad behaviour: Warning Notification / Ban for 6 hours / 1 day / 5 days / Permanent (No Vacation mode enabled)</li>\n<li>Scamming: Permanent Ban (No Vacation mode enabled)</li>\n<li>Hacking: Permanent Ban (No Vacation mode enabled)</li>\n<li>Spam: Permanent Ban (No Vacation mode enabled)</li>\n</ul><br><br>\n\nTop Navigation Rules<br>\n<ul>\n<li>PLANET: <font color="lime">SAFE</font> means that you are not receiving attacks on the Moon or Planet. Otherwise, will become to <font color="red">WARNING</font></li>\n<li>MOON: <font color="lime">SAFE</font> means that you are not receiving destruction attacks on the Moon. Otherwise, will become to <font color="red">WARNING</font></li>\n<li>SPYING: <font color="lime">SAFE</font> means that no one is spying you. Otherwise, will become to <font color="red">WARNING</font></li>\n<li>MISSILE ATTACK: <font color="lime">SAFE</font> means that no one is sending missiles to you. Otherwise, will become to <font color="red">WARNING</font></li>\n</ul><br><br>\n\nUsing Proxies or VPN are punnable, unless you can proof that you can not connect to the server with your services.\n\n\n</p>', 535, 3750000, 50000, 1750, 10, 20, 0, 1000, 'SmartMoons', 'SmartMoons', 1, 'Server is currently closed.', 0, 200, 100, 50, 0, 1, 306, 3, 1, 5000, 5, '', 1, 0, '', 2, 2, 1422743718, 1000, 0, 0, 0, 0, 0, '', 0, 0, 1, 2, 0, 5, '', '', 0, 1, 'Welcome to SmartMoons', 0, '', '', 0, 1, 0, '', 0, '', '', '', '', '/usr/sbin/sendmail', 0, 0, '', '', '0', '', '1;1;1;1;1;1;1;1;1;1;1;1;0;1;1;1;1;1;1;1;1;1;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1', '202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220', '10', 0, 1, 1, 1, 1, 1, '2Moons', '2Moons', 0, '', '', 0, 1, 7, 700, 15, 3.0, 20, 5, 10, 10, 50, 10, 1.0, 10000000000000, 10, 8, 1.0, 1.0, 20, 0, 8, 16, 1, 172800, 3600, 500, 500, 0, 100000, 'styles/resource/fonts/DroidSansMono.ttf', 0, 1000, 2000, 5, 3, 7, 30, 21, 0, 1, 'Europe/Lisbon', '0', 1, '', '', '', '', 0, 1422215269, 0, 2847000, 0, 0, 0);
+(1, '1.3', 0, '<h2>Smart-Space Helper</h2>\r\n\r\n<p align="left">\r\n\r\nAccepting playing on Smart-Space, you accept also that the moderators are authorized to check online users, control messages (detection of spammers or bad behaviour), edit accounts, edit game configurations or, in last case, punish a player.<br><br>\r\n\r\nBashing Rules<br>\r\n<ul>\r\n<li>You are able to attack the same user</li>\r\n<li>In case of <font color="yellow">Alliance War</font>, Bashing rule is <font color="yellow">disabled</font></li>\r\n<li>Attack the same planet/moon more than 6 times, the <font color="yellow">player is punished</font></li>\r\n<li>You are able to attack 6 times the <font color="yellow">same planet</font>, of the same user (eg. You attack a planet from Admin on 1:1:1, after 6 times, you can not attack more, but you can attack other planet.)</li>\r\n<li>You are able to attack 6 times the <font color="yellow">same moon</font>, of the same user  (eg. You attack a moon from Admin on 1:1:1, after 6 times, you can not attack more, but you can attack other planet.)</li>\r\n</ul><br><br>\r\n\r\nBan Rules<br>\r\n<ul>\r\n<li>Bashing: Ban for 6 hours (Vacation mode enabled)</li>\r\n<li>Bad behaviour: Warning Notification / Ban for 6 hours / 1 day / 5 days / Permanent (No Vacation mode enabled)</li>\r\n<li>Scamming: Permanent Ban (No Vacation mode enabled)</li>\r\n<li>Hacking: Permanent Ban (No Vacation mode enabled)</li>\r\n<li>Spam: Permanent Ban (No Vacation mode enabled)</li>\r\n</ul><br><br>\r\n\r\nTop Navigation Rules<br>\r\n<ul>\r\n<li>PLANET: <font color="lime">SAFE</font> means that you are not receiving attacks on the Moon or Planet. Otherwise, will become to <font color="red">WARNING</font></li>\r\n<li>MOON: <font color="lime">SAFE</font> means that you are not receiving destruction attacks on the Moon. Otherwise, will become to <font color="red">WARNING</font></li>\r\n<li>SPYING: <font color="lime">SAFE</font> means that no one is spying you. Otherwise, will become to <font color="red">WARNING</font></li>\r\n<li>MISSILE ATTACK: <font color="lime">SAFE</font> means that no one is sending missiles to you. Otherwise, will become to <font color="red">WARNING</font></li>\r\n</ul><br><br>\r\n\r\nUsing Proxies or VPN are punnable, unless you can proof that you can not connect to the server with your services.\r\n\r\n\r\n</p>', 1, 25000, 37500, 100, 3, 20, 0, 1000, 'Smart-Space', 'Smart-Space', 1, 'Server is currently closed.', 0, 200, 100, 50, 0, 1, 318, 3, 1, 5000, 5, 'http://forum.smartspace.esy.es', 1, 0, 'de', 1, 2, 1466154513, 1500, 0, 0, 0, 0, 0, '', 0, 0, 1, 2, 0, 5, '', '', 0, 1, '<marquee>Willkommen bei Smart-Space -/- Update 1.1 -/- Allianz Fix. -/- Login Anpassungen. -/- Ingame Anpassungen.</marquee>', 0, '', '', 20, 1, 0, '', 0, '', '', '', '', '/usr/sbin/sendmail', 0, 0, '', '', '0', '', '1;1;1;1;1;1;1;1;1;1;1;1;0;1;1;1;1;1;1;1;1;1;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1', '202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220', '10', 0, 1, 1, 1, 1, 1, 'Smart-Space', 'Smart-Space', 0, '', '', 0, 1, 7, 700, 15, 3.0, 6, 6, 10, 10, 50, 10, 1.0, 1000, 10, 8, 1.0, 1.0, 20, 50, 8, 16, 1, 172800, 3600, 500, 500, 0, 100000, 'styles/resource/fonts/DroidSansMono.ttf', 1, 1000, 2000, 5, 3, 7, 30, 21, 0, 1, 'Europe/Berlin', '0', 1, '', '', '', '', 0, 1422215269, 0, 2847000, 0, 0, 0);
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_cronjobs`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_cronjobs`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_cronjobs` (
@@ -409,12 +417,22 @@ CREATE TABLE IF NOT EXISTS `uni1_cronjobs` (
   `lock` varchar(32) DEFAULT NULL,
   UNIQUE KEY `cronjobID` (`cronjobID`),
   KEY `isActive` (`isActive`,`nextTime`,`lock`,`cronjobID`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=10 ;
+
+--
+-- Daten fÃ¼r Tabelle `uni1_cronjobs`
+--
+
+INSERT INTO `uni1_cronjobs` (`cronjobID`, `name`, `isActive`, `min`, `hours`, `dom`, `month`, `dow`, `class`, `nextTime`, `lock`) VALUES
+(9, 'Tracker', 1, '*', '*', '*', '*', '*', 'TrackingCronjob', 1466154480, NULL),
+(8, 'Cleaner', 1, '1', '2', '*', '*', '*', 'CleanerCronjob', 1466208060, NULL),
+(7, 'T??glicher Cronjob', 1, '1', '1', '*', '*', '*', 'DailyCronjob', 1466204460, NULL),
+(6, 'Statistik', 1, '*', '*', '*', '*', '*', 'StatisticCronjob', 1466154480, NULL);
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_diplo`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_diplo`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_diplo` (
@@ -433,7 +451,7 @@ CREATE TABLE IF NOT EXISTS `uni1_diplo` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_fleets`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_fleets`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_fleets` (
@@ -471,12 +489,12 @@ CREATE TABLE IF NOT EXISTS `uni1_fleets` (
   KEY `fleet_target_owner` (`fleet_target_owner`,`fleet_mission`),
   KEY `fleet_owner` (`fleet_owner`,`fleet_mission`),
   KEY `fleet_group` (`fleet_group`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_fleet_event`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_fleet_event`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_fleet_event` (
@@ -490,7 +508,7 @@ CREATE TABLE IF NOT EXISTS `uni1_fleet_event` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_log`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_log`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_log` (
@@ -503,12 +521,22 @@ CREATE TABLE IF NOT EXISTS `uni1_log` (
   `universe` tinyint(3) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `mode` (`mode`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=23 ;
+
+--
+-- Daten fÃ¼r Tabelle `uni1_log`
+--
+
+INSERT INTO `uni1_log` (`id`, `mode`, `admin`, `target`, `time`, `data`, `universe`) VALUES
+(19, 3, 10687, 1, 1466032057, 'a:2:{i:0;a:65:{s:18:"noobprotectiontime";s:4:"5000";s:19:"noobprotectionmulti";s:1:"5";s:14:"noobprotection";s:1:"1";s:8:"Defs_Cdr";s:1:"0";s:9:"Fleet_Cdr";s:2:"20";s:12:"game_disable";s:1:"1";s:12:"close_reason";s:27:"Server is currently closed.";s:17:"OverviewNewsFrame";s:1:"1";s:10:"reg_closed";s:1:"0";s:16:"OverviewNewsText";s:124:"<marquee>Willkommen bei Smart-Space -/- Update 1.1 -/- Allianz Fix. -/- Login Anpassungen. -/- Ingame Anpassungen.</marquee>";s:8:"uni_name";s:11:"Smart-Space";s:9:"forum_url";s:30:"http://forum.smartspace.esy.es";s:10:"game_speed";s:6:"375000";s:11:"fleet_speed";s:5:"37500";s:19:"resource_multiplier";s:3:"100";s:10:"halt_speed";s:1:"3";s:11:"energySpeed";s:1:"1";s:14:"initial_fields";s:4:"1000";s:18:"metal_basic_income";s:3:"200";s:20:"crystal_basic_income";s:3:"100";s:22:"deuterium_basic_income";s:2:"50";s:5:"debug";s:1:"0";s:10:"adm_attack";s:1:"1";s:4:"lang";s:2:"de";s:14:"min_build_time";s:2:"20";s:10:"user_valid";s:1:"0";s:12:"trade_charge";s:2:"10";s:19:"trade_allowed_ships";s:75:"202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220";s:9:"game_name";s:11:"Smart-Space";s:8:"capaktiv";s:1:"0";s:10:"capprivate";s:0:"";s:9:"cappublic";s:0:"";s:10:"max_galaxy";s:1:"7";s:10:"max_system";s:3:"700";s:11:"max_planets";s:2:"15";s:18:"min_player_planets";s:2:"10";s:12:"planets_tech";s:2:"50";s:16:"planets_officier";s:2:"10";s:16:"planets_per_tech";s:3:"1.0";s:13:"planet_factor";s:3:"3.0";s:18:"max_elements_build";s:1:"6";s:17:"max_elements_tech";s:1:"6";s:18:"max_elements_ships";s:2:"10";s:19:"max_fleet_per_build";s:4:"1000";s:12:"max_overflow";s:3:"1.0";s:11:"moon_factor";s:3:"1.0";s:11:"moon_chance";s:2:"20";s:22:"darkmatter_cost_trader";s:2:"50";s:17:"factor_university";s:1:"8";s:18:"max_fleets_per_acs";s:2:"16";s:14:"vmode_min_time";s:6:"172800";s:14:"gate_wait_time";s:4:"3600";s:11:"metal_start";s:3:"500";s:13:"crystal_start";s:3:"500";s:15:"deuterium_start";s:1:"0";s:16:"darkmatter_start";s:6:"100000";s:11:"debris_moon";s:1:"1";s:21:"deuterium_cost_galaxy";s:2:"10";s:10:"ref_active";s:1:"1";s:9:"ref_bonus";s:4:"1000";s:13:"ref_minpoints";s:4:"2000";s:16:"ref_max_referals";s:1:"5";s:11:"silo_factor";s:1:"1";s:15:"max_dm_missions";s:1:"8";s:26:"alliance_create_min_points";s:1:"0";}i:1;a:61:{s:18:"noobprotectiontime";i:5000;s:19:"noobprotectionmulti";i:5;s:14:"noobprotection";i:1;s:8:"Defs_Cdr";i:0;s:9:"Fleet_Cdr";i:20;s:12:"game_disable";i:1;s:12:"close_reason";s:27:"Server is currently closed.";s:17:"OverviewNewsFrame";i:1;s:10:"reg_closed";i:0;s:16:"OverviewNewsText";s:124:"<marquee>Willkommen bei Smart-Space -/- Update 1.1 -/- Allianz Fix. -/- Login Anpassungen. -/- Ingame Anpassungen.</marquee>";s:8:"uni_name";s:11:"Smart-Space";s:9:"forum_url";s:30:"http://forum.smartspace.esy.es";s:10:"game_speed";d:250000;s:11:"fleet_speed";d:37500;s:19:"resource_multiplier";d:100;s:10:"halt_speed";d:3;s:11:"energySpeed";d:1;s:14:"initial_fields";i:1000;s:18:"metal_basic_income";i:200;s:20:"crystal_basic_income";i:100;s:22:"deuterium_basic_income";i:50;s:5:"debug";i:0;s:10:"adm_attack";i:1;s:4:"lang";s:2:"de";s:14:"min_build_time";i:20;s:10:"user_valid";i:0;s:12:"trade_charge";d:10;s:19:"trade_allowed_ships";s:75:"202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220";s:10:"max_galaxy";i:7;s:10:"max_system";i:700;s:11:"max_planets";i:15;s:18:"min_player_planets";i:10;s:12:"planets_tech";i:50;s:16:"planets_officier";i:10;s:16:"planets_per_tech";d:1;s:13:"planet_factor";d:3;s:18:"max_elements_build";i:6;s:17:"max_elements_tech";i:6;s:18:"max_elements_ships";i:10;s:19:"max_fleet_per_build";d:1000;s:12:"max_overflow";i:1;s:11:"moon_factor";d:1;s:11:"moon_chance";i:20;s:22:"darkmatter_cost_trader";i:50;s:17:"factor_university";i:8;s:18:"max_fleets_per_acs";i:16;s:14:"vmode_min_time";i:172800;s:14:"gate_wait_time";i:3600;s:11:"metal_start";i:500;s:13:"crystal_start";i:500;s:15:"deuterium_start";i:0;s:16:"darkmatter_start";i:100000;s:11:"debris_moon";i:1;s:21:"deuterium_cost_galaxy";i:10;s:10:"ref_active";i:1;s:9:"ref_bonus";i:1000;s:13:"ref_minpoints";i:2000;s:16:"ref_max_referals";i:5;s:11:"silo_factor";i:1;s:15:"max_dm_missions";i:8;s:26:"alliance_create_min_points";i:0;}}', 1),
+(20, 3, 10687, 2, 1466032373, 'a:2:{i:0;a:4:{s:13:"stat_settings";s:4:"1500";s:4:"stat";s:1:"2";s:16:"stat_update_time";s:1:"0";s:10:"stat_level";s:1:"2";}i:1;a:4:{s:13:"stat_settings";i:2000;s:4:"stat";i:1;s:16:"stat_update_time";i:0;s:10:"stat_level";i:2;}}', 1),
+(21, 3, 10687, 1, 1466086379, 'a:2:{i:0;a:65:{s:18:"noobprotectiontime";s:4:"5000";s:19:"noobprotectionmulti";s:1:"5";s:14:"noobprotection";s:1:"1";s:8:"Defs_Cdr";s:1:"0";s:9:"Fleet_Cdr";s:2:"20";s:12:"game_disable";s:1:"1";s:12:"close_reason";s:27:"Server is currently closed.";s:17:"OverviewNewsFrame";s:1:"1";s:10:"reg_closed";s:1:"0";s:16:"OverviewNewsText";s:124:"<marquee>Willkommen bei Smart-Space -/- Update 1.1 -/- Allianz Fix. -/- Login Anpassungen. -/- Ingame Anpassungen.</marquee>";s:8:"uni_name";s:11:"Smart-Space";s:9:"forum_url";s:30:"http://forum.smartspace.esy.es";s:10:"game_speed";s:6:"250000";s:11:"fleet_speed";s:5:"37500";s:19:"resource_multiplier";s:3:"100";s:10:"halt_speed";s:1:"3";s:11:"energySpeed";s:1:"1";s:14:"initial_fields";s:4:"1000";s:18:"metal_basic_income";s:3:"200";s:20:"crystal_basic_income";s:3:"100";s:22:"deuterium_basic_income";s:2:"50";s:5:"debug";s:1:"0";s:10:"adm_attack";s:1:"1";s:4:"lang";s:2:"de";s:14:"min_build_time";s:2:"20";s:10:"user_valid";s:1:"0";s:12:"trade_charge";s:2:"10";s:19:"trade_allowed_ships";s:75:"202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220";s:9:"game_name";s:11:"Smart-Space";s:8:"capaktiv";s:1:"0";s:10:"capprivate";s:0:"";s:9:"cappublic";s:0:"";s:10:"max_galaxy";s:1:"7";s:10:"max_system";s:3:"700";s:11:"max_planets";s:2:"15";s:18:"min_player_planets";s:2:"10";s:12:"planets_tech";s:2:"50";s:16:"planets_officier";s:2:"10";s:16:"planets_per_tech";s:3:"1.0";s:13:"planet_factor";s:3:"3.0";s:18:"max_elements_build";s:1:"6";s:17:"max_elements_tech";s:1:"6";s:18:"max_elements_ships";s:2:"10";s:19:"max_fleet_per_build";s:4:"1000";s:12:"max_overflow";s:3:"1.0";s:11:"moon_factor";s:3:"1.0";s:11:"moon_chance";s:2:"20";s:22:"darkmatter_cost_trader";s:2:"50";s:17:"factor_university";s:1:"8";s:18:"max_fleets_per_acs";s:2:"16";s:14:"vmode_min_time";s:6:"172800";s:14:"gate_wait_time";s:4:"3600";s:11:"metal_start";s:3:"500";s:13:"crystal_start";s:3:"500";s:15:"deuterium_start";s:1:"0";s:16:"darkmatter_start";s:6:"100000";s:11:"debris_moon";s:1:"1";s:21:"deuterium_cost_galaxy";s:2:"10";s:10:"ref_active";s:1:"1";s:9:"ref_bonus";s:4:"1000";s:13:"ref_minpoints";s:4:"2000";s:16:"ref_max_referals";s:1:"5";s:11:"silo_factor";s:1:"1";s:15:"max_dm_missions";s:1:"8";s:26:"alliance_create_min_points";s:1:"0";}i:1;a:61:{s:18:"noobprotectiontime";i:5000;s:19:"noobprotectionmulti";i:5;s:14:"noobprotection";i:1;s:8:"Defs_Cdr";i:0;s:9:"Fleet_Cdr";i:20;s:12:"game_disable";i:1;s:12:"close_reason";s:27:"Server is currently closed.";s:17:"OverviewNewsFrame";i:1;s:10:"reg_closed";i:0;s:16:"OverviewNewsText";s:124:"<marquee>Willkommen bei Smart-Space -/- Update 1.1 -/- Allianz Fix. -/- Login Anpassungen. -/- Ingame Anpassungen.</marquee>";s:8:"uni_name";s:11:"Smart-Space";s:9:"forum_url";s:30:"http://forum.smartspace.esy.es";s:10:"game_speed";d:25000;s:11:"fleet_speed";d:37500;s:19:"resource_multiplier";d:100;s:10:"halt_speed";d:3;s:11:"energySpeed";d:1;s:14:"initial_fields";i:1000;s:18:"metal_basic_income";i:200;s:20:"crystal_basic_income";i:100;s:22:"deuterium_basic_income";i:50;s:5:"debug";i:0;s:10:"adm_attack";i:1;s:4:"lang";s:2:"de";s:14:"min_build_time";i:20;s:10:"user_valid";i:0;s:12:"trade_charge";d:10;s:19:"trade_allowed_ships";s:75:"202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220";s:10:"max_galaxy";i:7;s:10:"max_system";i:700;s:11:"max_planets";i:15;s:18:"min_player_planets";i:10;s:12:"planets_tech";i:50;s:16:"planets_officier";i:10;s:16:"planets_per_tech";d:1;s:13:"planet_factor";d:3;s:18:"max_elements_build";i:6;s:17:"max_elements_tech";i:6;s:18:"max_elements_ships";i:10;s:19:"max_fleet_per_build";d:1000;s:12:"max_overflow";i:1;s:11:"moon_factor";d:1;s:11:"moon_chance";i:20;s:22:"darkmatter_cost_trader";i:50;s:17:"factor_university";i:8;s:18:"max_fleets_per_acs";i:16;s:14:"vmode_min_time";i:172800;s:14:"gate_wait_time";i:3600;s:11:"metal_start";i:500;s:13:"crystal_start";i:500;s:15:"deuterium_start";i:0;s:16:"darkmatter_start";i:100000;s:11:"debris_moon";i:1;s:21:"deuterium_cost_galaxy";i:10;s:10:"ref_active";i:1;s:9:"ref_bonus";i:1000;s:13:"ref_minpoints";i:2000;s:16:"ref_max_referals";i:5;s:11:"silo_factor";i:1;s:15:"max_dm_missions";i:8;s:26:"alliance_create_min_points";i:0;}}', 1),
+(22, 3, 10687, 2, 1466090570, 'a:2:{i:0;a:4:{s:13:"stat_settings";s:4:"2000";s:4:"stat";s:1:"1";s:16:"stat_update_time";s:1:"0";s:10:"stat_level";s:1:"2";}i:1;a:4:{s:13:"stat_settings";i:1500;s:4:"stat";i:1;s:16:"stat_update_time";i:0;s:10:"stat_level";i:2;}}', 1);
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_log_fleets`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_log_fleets`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_log_fleets` (
@@ -549,7 +577,7 @@ CREATE TABLE IF NOT EXISTS `uni1_log_fleets` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_lostpassword`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_lostpassword`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_lostpassword` (
@@ -566,7 +594,7 @@ CREATE TABLE IF NOT EXISTS `uni1_lostpassword` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_messages`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_messages`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_messages` (
@@ -583,12 +611,19 @@ CREATE TABLE IF NOT EXISTS `uni1_messages` (
   PRIMARY KEY (`message_id`),
   KEY `message_sender` (`message_sender`),
   KEY `message_owner` (`message_owner`,`message_type`,`message_unread`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=53 ;
+
+--
+-- Daten fÃ¼r Tabelle `uni1_messages`
+--
+
+INSERT INTO `uni1_messages` (`message_id`, `message_owner`, `message_sender`, `message_time`, `message_type`, `message_from`, `message_subject`, `message_text`, `message_unread`, `message_universe`) VALUES
+(52, 10687, 1, 1466031424, 1, 'Administrator', 'Willkommen', 'Willkommen bei Smart-Space! Baue zuerst ein Solarkraftwerk, denn Energie wird fÃ¼r die spÃ¤tere Rohstoffproduktion benÃ¶tigt. Um diese zu bauen, klicke links im Menu auf "GebÃ¤ude". Danach baue das 4. GebÃ¤ude von oben. Da du nun Energie hast, kannst du anfangen Minen zu bauen. Gehe dazu wieder im MenÃ¼ auf GebÃ¤ude und baue eine Metallmine, danach wieder eine Kristallmine. Um Schiffe bauen zu kÃ¶nnen musst du zuerst eine Raumschiffswerft gebaut haben. Was dafÃ¼r benÃ¶tigt wird findest du links im MenÃ¼punkt Technologie. Das Team wÃ¼nscht dir viel SpaÃŸ beim Erkunden des Universums!', 1, 1);
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_multi`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_multi`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_multi` (
@@ -596,12 +631,12 @@ CREATE TABLE IF NOT EXISTS `uni1_multi` (
   `userID` int(11) NOT NULL,
   PRIMARY KEY (`multiID`),
   KEY `userID` (`userID`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_news`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_news`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_news` (
@@ -616,7 +651,7 @@ CREATE TABLE IF NOT EXISTS `uni1_news` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_notes`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_notes`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_notes` (
@@ -635,7 +670,7 @@ CREATE TABLE IF NOT EXISTS `uni1_notes` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_planetcloak_log`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_planetcloak_log`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_planetcloak_log` (
@@ -650,7 +685,7 @@ CREATE TABLE IF NOT EXISTS `uni1_planetcloak_log` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_planets`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_planets`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_planets` (
@@ -764,23 +799,19 @@ CREATE TABLE IF NOT EXISTS `uni1_planets` (
   KEY `id_owner` (`id_owner`),
   KEY `destruyed` (`destruyed`),
   KEY `universe` (`universe`,`galaxy`,`system`,`planet`,`planet_type`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=18005 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=18018 ;
 
 --
--- Extraindo dados da tabela `uni1_planets`
+-- Daten fÃ¼r Tabelle `uni1_planets`
 --
 
 INSERT INTO `uni1_planets` (`id`, `name`, `id_owner`, `universe`, `galaxy`, `system`, `planet`, `last_update`, `planet_type`, `destruyed`, `b_building`, `b_building_id`, `b_hangar`, `b_hangar_id`, `b_hangar_plus`, `image`, `diameter`, `field_current`, `field_max`, `temp_min`, `temp_max`, `eco_hash`, `darkmatter_perhour`, `metal`, `metal_perhour`, `metal_max`, `crystal`, `crystal_perhour`, `crystal_max`, `deuterium`, `deuterium_perhour`, `deuterium_max`, `energy_used`, `energy`, `metal_mine`, `fountain`, `crystal_mine`, `deuterium_sintetizer`, `solar_plant`, `fusion_plant`, `robot_factory`, `nano_factory`, `hangar`, `resourcegate`, `metal_store`, `crystal_store`, `deuterium_store`, `laboratory`, `terraformer`, `university`, `ally_deposit`, `silo`, `mondbasis`, `phalanx`, `sprungtor`, `small_ship_cargo`, `big_ship_cargo`, `light_hunter`, `heavy_hunter`, `crusher`, `battle_ship`, `colonizer`, `recycler`, `spy_sonde`, `bomber_ship`, `solar_satelit`, `destructor`, `dearth_star`, `battleship`, `lune_noir`, `ev_transporter`, `star_crasher`, `giga_recykler`, `dm_ship`, `orbital_station`, `misil_launcher`, `small_laser`, `big_laser`, `gauss_canyon`, `ionic_canyon`, `buster_canyon`, `small_protection_shield`, `planet_protector`, `big_protection_shield`, `graviton_canyon`, `interceptor_misil`, `interplanetary_misil`, `metal_mine_porcent`, `crystal_mine_porcent`, `deuterium_sintetizer_porcent`, `solar_plant_porcent`, `fusion_plant_porcent`, `solar_satelit_porcent`, `fountain_porcent`, `last_jump_time`, `der_metal`, `der_crystal`, `id_luna`, `advancedMetal_porcent`, `advancedCrystal_porcent`, `advancedDeuterium_porcent`, `advancedMetal`, `advancedCrystal`, `advancedDeuterium`, `last_relocate`) VALUES
-(1, 'Main', 1, 1, 1, 1, 1, 1422794409, '1', 0, 0, '', 0, '', 0, 'wuestenplanet03', 10246, 75, 1035, 199, 239, 'deae60d2d80206f4c83154a36d8fd6ae', 405, 16049505905500.000000, 355410755.433000, 105000000, 32672987792.500000, 1248657.389450, 105000000, 2054009875.900000, 29966.594805, 105000000, -256904, 4814, 63, 50, 20, 5, 6, 0, 30, 0, 11, 1, 0, 0, 0, 3, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 33, 0, 0, 0, 49999999, 0, 10000000000, 0, 50, 0, 150, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '10', '10', '10', '10', '10', '10', '10', 0, 0, 0, 3, '10', '10', '10', 0, 0, 0, 0),
-(2, 'Planet 2', 1, 1, 1, 1, 2, 1422738066, '1', 0, 0, '', 0, '', 0, 'wuestenplanet04', 10392, 101, 1035, 142, 182, '', 810, 140000000.000000, 2966299.875000, 105000000, 140000000.000000, 1977533.250000, 105000000, 340000000.000000, 905710.228500, 105000000, -200, 322, 3, 100, 3, 3, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '10', '10', '10', '10', '10', '10', '10', 0, 0, 0, 0, '10', '10', '10', 0, 0, 0, 0),
-(3, 'Moon', 1, 1, 1, 1, 1, 1422758598, '3', 0, 0, '', 0, '', 0, 'mond', 8426, 1, 46, 176, 203, '', 0, 500.000000, 0.000000, 105000000, 0.000000, 0.000000, 105000000, 0.000000, 0.000000, 105000000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '10', '10', '10', '10', '10', '10', '10', 0, 0, 0, 0, '10', '10', '10', 0, 0, 0, 0),
-(17908, 'Colony', 1, 1, 2, 1, 1, 1422758588, '1', 0, 0, '', 0, '', 0, 'wuestenplanet02', 18000, 0, 0, 182, 222, '', 0, 2197333.333330, 0.000000, 105000000, 1098916.666660, 0.000000, 105000000, 549208.333333, 0.000000, 105000000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '10', '10', '10', '10', '10', '10', '10', 0, 0, 0, 17943, '10', '10', '10', 0, 0, 0, 0),
-(17943, '', 1, 1, 2, 1, 1, 1422759990, '3', 0, 0, '', 0, '', 0, 'mond', 8239, 0, 1, 143, 185, 'ce0f4f29f0a193516d1c4c0244bfd329', 0, 0.000000, 0.000000, 105000000, 0.000000, 0.000000, 105000000, 0.000000, 0.000000, 105000000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '10', '10', '10', '10', '10', '10', '10', 0, 0, 0, 0, '10', '10', '10', 0, 0, 0, 0);
+(18017, 'Hauptplanet', 10687, 1, 1, 318, 8, 1466154550, '1', 0, 0, '', 0, '', 0, 'normaltempplanet06', 31622, 26, 1000, 10, 50, '7dbf32143cc94691e3fcd0a065969ad9', 0, 1199365.639877, 24157.650000, 2000000, 815642.935080, 21258.732000, 2000000, 304939.024688, 4711.740000, 2000000, -307, 343, 5, 0, 6, 3, 8, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '10', '10', '10', '10', '10', '10', '10', 0, 0, 0, 0, '10', '10', '10', 0, 0, 0, 0);
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_raports`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_raports`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_raports` (
@@ -796,7 +827,7 @@ CREATE TABLE IF NOT EXISTS `uni1_raports` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_records`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_records`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_records` (
@@ -808,7 +839,7 @@ CREATE TABLE IF NOT EXISTS `uni1_records` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_session`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_session`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_session` (
@@ -823,7 +854,7 @@ CREATE TABLE IF NOT EXISTS `uni1_session` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_shortcuts`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_shortcuts`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_shortcuts` (
@@ -841,7 +872,7 @@ CREATE TABLE IF NOT EXISTS `uni1_shortcuts` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_statpoints`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_statpoints`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_statpoints` (
@@ -874,10 +905,17 @@ CREATE TABLE IF NOT EXISTS `uni1_statpoints` (
   KEY `stat_type` (`stat_type`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
+--
+-- Daten fÃ¼r Tabelle `uni1_statpoints`
+--
+
+INSERT INTO `uni1_statpoints` (`id_owner`, `id_ally`, `stat_type`, `universe`, `tech_rank`, `tech_old_rank`, `tech_points`, `tech_count`, `build_rank`, `build_old_rank`, `build_points`, `build_count`, `defs_rank`, `defs_old_rank`, `defs_points`, `defs_count`, `fleet_rank`, `fleet_old_rank`, `fleet_points`, `fleet_count`, `total_rank`, `total_old_rank`, `total_points`, `total_count`) VALUES
+(10687, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0);
+
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_ticket`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_ticket`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_ticket` (
@@ -891,12 +929,12 @@ CREATE TABLE IF NOT EXISTS `uni1_ticket` (
   PRIMARY KEY (`ticketID`),
   KEY `ownerID` (`ownerID`),
   KEY `universe` (`universe`,`status`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_ticket_answer`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_ticket_answer`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_ticket_answer` (
@@ -908,12 +946,12 @@ CREATE TABLE IF NOT EXISTS `uni1_ticket_answer` (
   `subject` varchar(255) NOT NULL,
   `message` mediumtext NOT NULL,
   PRIMARY KEY (`answerID`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_ticket_category`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_ticket_category`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_ticket_category` (
@@ -925,7 +963,7 @@ CREATE TABLE IF NOT EXISTS `uni1_ticket_category` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_topkb`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_topkb`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_topkb` (
@@ -937,10 +975,17 @@ CREATE TABLE IF NOT EXISTS `uni1_topkb` (
   KEY `time` (`universe`,`rid`,`time`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
+--
+-- Daten fÃ¼r Tabelle `uni1_topkb`
+--
+
+INSERT INTO `uni1_topkb` (`rid`, `units`, `result`, `time`, `universe`) VALUES
+('bb663d2cde3931d8eed89cc65e17e9ee', 0, 'a', 1464969538, 1);
+
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_users`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_users`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_users` (
@@ -1089,19 +1134,19 @@ CREATE TABLE IF NOT EXISTS `uni1_users` (
   KEY `ref_bonus` (`ref_bonus`),
   KEY `universe` (`universe`,`username`,`password`,`onlinetime`,`authlevel`),
   KEY `ally_id` (`ally_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=10676 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=10688 ;
 
 --
--- Extraindo dados da tabela `uni1_users`
+-- Daten fÃ¼r Tabelle `uni1_users`
 --
 
 INSERT INTO `uni1_users` (`id`, `username`, `password`, `mobile_version`, `fixed_navbar`, `fixed_header`, `game_theme`, `email`, `email_2`, `lang`, `authattack`, `authlevel`, `rights`, `id_planet`, `universe`, `galaxy`, `system`, `planet`, `darkmatter`, `user_lastip`, `ip_at_reg`, `register_time`, `onlinetime`, `dpath`, `timezone`, `planet_sort`, `planet_sort_order`, `spio_anz`, `settings_fleetactions`, `settings_esp`, `settings_wri`, `settings_bud`, `settings_mis`, `settings_blockPM`, `urlaubs_modus`, `urlaubs_until`, `db_deaktjava`, `b_tech_planet`, `b_tech`, `b_tech_id`, `b_tech_queue`, `spy_tech`, `computer_tech`, `military_tech`, `defence_tech`, `shield_tech`, `energy_tech`, `hyperspace_tech`, `combustion_tech`, `impulse_motor_tech`, `hyperspace_motor_tech`, `laser_tech`, `ionic_tech`, `buster_tech`, `intergalactic_tech`, `expedition_tech`, `metal_proc_tech`, `crystal_proc_tech`, `deuterium_proc_tech`, `graviton_tech`, `ally_id`, `ally_register_time`, `ally_rank_id`, `rpg_geologue`, `rpg_amiral`, `rpg_ingenieur`, `rpg_technocrate`, `rpg_espion`, `rpg_constructeur`, `rpg_scientifique`, `rpg_commandant`, `rpg_stockeur`, `rpg_defenseur`, `rpg_destructeur`, `rpg_general`, `rpg_bunker`, `rpg_raideur`, `rpg_empereur`, `bana`, `banaday`, `hof`, `spyMessagesMode`, `wons`, `loos`, `draws`, `kbmetal`, `kbcrystal`, `lostunits`, `desunits`, `uctime`, `setmail`, `dm_attack`, `dm_defensive`, `dm_buildtime`, `dm_researchtime`, `dm_resource`, `dm_energie`, `dm_fleettime`, `ref_id`, `ref_bonus`, `inactive_mail`, `prem_time`, `prem_res`, `prem_storage`, `prem_s_build`, `prem_o_build`, `prem_expedition`, `prem_count_expiditeon`, `prem_moon_dextruct`, `prem_enabled`, `prem_waste`, `enabledPremium`, `donatedPremium`, `timePremium`, `bonusAttack`, `bonusDefensive`, `bonusShield`, `bonusBuildTime`, `bonusResearchTime`, `bonusShipTime`, `bonusDefensiveTime`, `bonusResource`, `bonusEnergy`, `bonusResourceStorage`, `bonusShipStorage`, `bonusFlyTime`, `bonusFleetSlots`, `bonusSpyPower`, `bonusExpedition`, `bonusGateCoolTime`, `bonusMoreFound`, `bm_Daily_time`, `bm_216`, `compendium_destroy`, `compendium_donated`, `compendium`, `DestructionDealer`, `planet_cloak_countdown`, `planet_cloak`, `stardust`) VALUES
-(1, 'Admin', '$2a$09$79nwiSaPyu4ER60ebBh3J.fIoWByRx4V2uEMnkD2fMPF6jLXkNjHS', 'initial-scale=1.0', '', 'fixed-header', 'smart-style-5', 'qwatayean@gmail.com', 'qwatayean@gmail.com', 'en', 0, 3, '', 1, 1, 1, 1, 2, 35560185, '85.244.129.111', '81.193.26.250', 1419547025, 1422794422, 'gow', 'Europe/London', 0, 0, 1, 3, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, '', 5, 1, 0, 0, 0, 2, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1419791440, 0, 20, 20, 20, 20, 100, 20, 10, 100, 100, 100, 100, 100, 100, 100, 100, 0, 0, 1, 0, 1, 3, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1422811382, 0, 0, 0, 0, 0, 0, 0, 0, 96635, 0, 0, 0, 100, 50, 50, 0, 30, 0, 0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1422842853, 0, 0, 11000, 0, 1, 1423427099, 1422822299, 1);
+(10687, 'Admin', '$2a$09$79nwiSaPyu4ER60ebBh3J..VtkN5xIUOmi6uxKP1R2jDIlmDHFCdC', 'initial-scale=1.0', 'fixed-navigation', 'fixed-header', '.smart-style-6', 'Admin@smartmoons.esy.es', 'florian.foedtke@gmail.com', 'de', 0, 3, NULL, 18017, 1, 1, 318, 8, 100000, '77.20.197.100', '82.113.106.44', 1466031424, 1466154550, 'gow', 'Europe/Berlin', 0, 0, 1, 3, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1466154550, 1466759350, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1);
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_users_to_acs`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_users_to_acs`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_users_to_acs` (
@@ -1114,7 +1159,7 @@ CREATE TABLE IF NOT EXISTS `uni1_users_to_acs` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_users_to_extauth`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_users_to_extauth`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_users_to_extauth` (
@@ -1129,7 +1174,7 @@ CREATE TABLE IF NOT EXISTS `uni1_users_to_extauth` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_users_to_topkb`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_users_to_topkb`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_users_to_topkb` (
@@ -1143,7 +1188,7 @@ CREATE TABLE IF NOT EXISTS `uni1_users_to_topkb` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_users_valid`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_users_valid`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_users_valid` (
@@ -1160,12 +1205,12 @@ CREATE TABLE IF NOT EXISTS `uni1_users_valid` (
   `externalAuthUID` varchar(128) DEFAULT NULL,
   `externalAuthMethod` varchar(32) DEFAULT NULL,
   PRIMARY KEY (`validationID`,`validationKey`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=13 ;
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_vars`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_vars`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_vars` (
@@ -1244,7 +1289,7 @@ CREATE TABLE IF NOT EXISTS `uni1_vars` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 --
--- Extraindo dados da tabela `uni1_vars`
+-- Daten fÃ¼r Tabelle `uni1_vars`
 --
 
 INSERT INTO `uni1_vars` (`elementID`, `name`, `class`, `onPlanetType`, `onePerPlanet`, `factor`, `maxLevel`, `cost901`, `cost902`, `cost903`, `cost911`, `cost921`, `consumption1`, `consumption2`, `speedTech`, `speed1`, `speed2`, `speed2Tech`, `speed2onLevel`, `speed3Tech`, `speed3onLevel`, `capacity`, `attack`, `defend`, `timeBonus`, `bonusAttack`, `bonusDefensive`, `bonusShield`, `bonusBuildTime`, `bonusResearchTime`, `bonusShipTime`, `bonusDefensiveTime`, `bonusResource`, `bonusEnergy`, `bonusResourceStorage`, `bonusShipStorage`, `bonusFlyTime`, `bonusFleetSlots`, `bonusPlanets`, `bonusSpyPower`, `bonusExpedition`, `bonusGateCoolTime`, `bonusMoreFound`, `bonusAttackUnit`, `bonusDefensiveUnit`, `bonusShieldUnit`, `bonusBuildTimeUnit`, `bonusResearchTimeUnit`, `bonusShipTimeUnit`, `bonusDefensiveTimeUnit`, `bonusResourceUnit`, `bonusEnergyUnit`, `bonusResourceStorageUnit`, `bonusShipStorageUnit`, `bonusFlyTimeUnit`, `bonusFleetSlotsUnit`, `bonusPlanetsUnit`, `bonusSpyPowerUnit`, `bonusExpeditionUnit`, `bonusGateCoolTimeUnit`, `bonusMoreFoundUnit`, `speedFleetFactor`, `production901`, `production902`, `production903`, `production911`, `production921`, `storage901`, `storage902`, `storage903`) VALUES
@@ -1366,7 +1411,7 @@ INSERT INTO `uni1_vars` (`elementID`, `name`, `class`, `onPlanetType`, `onePerPl
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_vars_rapidfire`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_vars_rapidfire`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_vars_rapidfire` (
@@ -1378,7 +1423,7 @@ CREATE TABLE IF NOT EXISTS `uni1_vars_rapidfire` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 --
--- Extraindo dados da tabela `uni1_vars_rapidfire`
+-- Daten fÃ¼r Tabelle `uni1_vars_rapidfire`
 --
 
 INSERT INTO `uni1_vars_rapidfire` (`elementID`, `rapidfireID`, `shoots`) VALUES
@@ -1483,7 +1528,7 @@ INSERT INTO `uni1_vars_rapidfire` (`elementID`, `rapidfireID`, `shoots`) VALUES
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_vars_requriements`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_vars_requriements`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_vars_requriements` (
@@ -1495,7 +1540,7 @@ CREATE TABLE IF NOT EXISTS `uni1_vars_requriements` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 --
--- Extraindo dados da tabela `uni1_vars_requriements`
+-- Daten fÃ¼r Tabelle `uni1_vars_requriements`
 --
 
 INSERT INTO `uni1_vars_requriements` (`elementID`, `requireID`, `requireLevel`) VALUES
@@ -1842,7 +1887,7 @@ INSERT INTO `uni1_vars_requriements` (`elementID`, `requireID`, `requireLevel`) 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_votesystem`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_votesystem`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_votesystem` (
@@ -1857,7 +1902,7 @@ CREATE TABLE IF NOT EXISTS `uni1_votesystem` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `uni1_votesystem_log`
+-- Tabellenstruktur fÃ¼r Tabelle `uni1_votesystem_log`
 --
 
 CREATE TABLE IF NOT EXISTS `uni1_votesystem_log` (
