@@ -197,21 +197,11 @@ class ShowAlliancePage extends AbstractPage
 			ORDER BY ally_members DESC LIMIT 10;");
 			
 		while($searchRow = $GLOBALS['DATABASE']->fetch_array($Ally))
-			{
-				$topAlly[]	= array(
-					'id'		=> $searchRow['id'],
-					'tag'		=> $searchRow['ally_tag'],
-					'members'	=> $searchRow['ally_members'],
-					'name'		=> $searchRow['ally_name'],
-					'img'       => $searchRow['ally_image'],
-				);
-			}
+			
 			
 			$GLOBALS['DATABASE']->free_result($Ally);
 			
-		$this->tplObj->assign_vars(array(
-			'topAlly' => $topAlly,
-		));
+
 		
 		$this->display('page.alliance.createSelection.tpl');		
 	}
