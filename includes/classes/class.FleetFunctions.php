@@ -22,7 +22,7 @@
  * @copyright 2012 Jan Kröpke <info@2moons.cc>
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
  * @version 1.7.3 (2013-05-19)
- * @info $Id: class.FleetFunctions.php 2677 2013-04-18 10:05:22Z lordmegger@googlemail.com $
+ * @info $Id$
  * @link http://2moons.cc/
  */
 
