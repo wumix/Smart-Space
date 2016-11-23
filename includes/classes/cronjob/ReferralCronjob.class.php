@@ -23,7 +23,7 @@
  * @copyright 2011 Jan Kröpke <info@2moons.cc>
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
  * @version 1.7.0 (2011-12-10)
- * @info $Id: ReferralCronjob.class.php 2527 2013-01-03 19:06:30Z slaver7 $
+ * @info $Id$
  * @link http://code.google.com/p/2moons/
  */
 
