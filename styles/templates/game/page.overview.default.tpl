@@ -19,6 +19,40 @@
 					</div>								
 					{/if}
 				<!-- end row-->
+
+						<!-- start row -->
+				
+				<!-- row -->
+				<div class="row">
+					
+					<!-- col -->
+					<div class="col-xs-12 col-sm-7 col-md-7 col-lg-4">
+						<ul id="sparks" class="">
+							<li class="sparks-info">
+								<h5> Bauschleife <span class="txt-color-blue">{if $buildInfo.buildings}{$LNG.tech[$buildInfo.buildings['id']]} ({$buildInfo.buildings['level']})<br><div class="timer" data-time="{$buildInfo.buildings['timeleft']}">{$buildInfo.buildings['starttime']}</div>{else}{$LNG.ov_free}{/if}</span></h5>
+								<div class="sparkline txt-color-blue hidden-mobile hidden-md hidden-sm">
+			<img src="{$dpath}planeten/{$planetimage}.jpg" height="50" width="50" alt="{$planetname}">
+								</div>
+							</li>
+							<li class="sparks-info">
+								<h5> Aktive Forschungen <span class="txt-color-purple">{if $buildInfo.tech}{$LNG.tech[$buildInfo.tech['id']]} ({$buildInfo.tech['level']})<br><div class="timer" data-time="{$buildInfo.tech['timeleft']}">{$buildInfo.tech['starttime']}</div>{else}{$LNG.ov_free}{/if}</span></h5>
+								<div class="sparkline txt-color-purple hidden-mobile hidden-md hidden-sm">
+			<img src="{$dpath}planeten/{$planetimage}.jpg" height="50" width="50" alt="{$planetname}">
+								</div>
+							</li>
+							<li class="sparks-info">
+								<h5> Flotten Herstellung <span class="txt-color-greenDark">{if $buildInfo.fleet}{$LNG.tech[$buildInfo.fleet['id']]} ({$buildInfo.fleet['level']})<br><div class="timer" data-time="{$buildInfo.fleet['timeleft']}">{$buildInfo.fleet['starttime']}</div>{else}{$LNG.ov_free}{/if}</span></h5>
+								<div class="sparkline txt-color-greenDark hidden-mobile hidden-md hidden-sm">
+			<img src="{$dpath}planeten/{$planetimage}.jpg" height="50" width="50" alt="{$planetname}">
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- end row-->
+          </div>
+          <br>
+       <br>
 	{if $hasAdminAccess}
 							<!-- start row -->
 				
@@ -44,6 +78,22 @@
 					</div>						
 					{/if}
 				<!-- end row-->
+
+							<!-- start row -->
+				
+					<div class="row">
+				
+						<div class="col-sm-12">
+							<div class="alert alert-danger alert-block">
+								<a class="close" data-dismiss="alert" href="#">×</a>
+								<h4 class="alert-heading">{$LNG.ov_admins_online}</h4>
+		<td colspan="2">{foreach $AdminsOnline as $ID => $Name}{if !$Name@first}&nbsp;&bull;&nbsp;{/if}<a href="#" onclick="return Dialog.PM({$ID})">{$Name}</a>{foreachelse}{$LNG.ov_no_admins_online}{/foreach}</td>
+							</div>
+				
+						</div>
+				
+					</div>						
+				<!-- end row-->
 				
 {if !empty($fleets)}
 <div class="jarviswidget  jarviswidget-sortable jarviswidget-color-blueDark" id="wid-id-2" data-widget-editbutton="false" role="widget" data-widget-attstyle="jarviswidget-color-blueDark">
@@ -67,8 +117,8 @@
 					{foreach $fleets as $index => $fleet}
 					<thead>
 						<tr>
-							<th id="fleettime_{$index}" class="fleets" data-fleet-end-time="{$fleet.returntime}" data-fleet-time="{$fleet.resttime}">{pretty_fly_time({$fleet.resttime})}</th>
-							<th colspan="2">{$fleet.text}</th>
+							<th id="fleettime_{$index}" class="fleets" data-fleet-end-time="{$fleet.returntime}" data-fleet-time="{$fleet.resttime}"><br>{pretty_fly_time({$fleet.resttime})}</th>
+							<th colspan="2"><br>{$fleet.text}</th>
 						</tr>
 					</thead>
 					{/foreach}
@@ -191,4 +241,33 @@
 				</div>
 				<!-- end widget div -->
 			</div>
+
+							<!-- start row -->
+					{if $ref_active}
+					<div class="row">
+				
+						<div class="col-sm-12">
+							<div class="alert alert-info alert-block">
+								<a class="close" data-dismiss="alert" href="#">×</a>
+								<h4 class="alert-heading">{$LNG.ov_reflink}</h4>
+	<tr>
+		<td colspan="3"><input type="text" value="{$path}index.php?ref={$userid}" readonly="readonly" style="width:380px;"></td>
+	</tr>
+	{foreach $RefLinks as $RefID => $RefLink}
+	<tr>
+		<td colspan="2"><a href="#" onclick="return Dialog.Playercard({$RefID}, '{$RefLink.username}');">{$RefLink.username}</a></td>
+		<td>{{$RefLink.points|number}} / {$ref_minpoints|number}</td>
+	</tr>
+	{foreachelse}
+	<tr>
+		<td colspan="3">{$LNG.ov_noreflink}</td>
+	</tr>
+	{/foreach}
+							</div>
+				
+						</div>
+				
+					</div>						
+					{/if}
+				<!-- end row-->
 			{/block}
