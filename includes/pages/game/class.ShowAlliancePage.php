@@ -22,7 +22,7 @@
  * @copyright 2012 Jan Kröpke <info@2moons.cc>
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
  * @version 1.7.3 (2013-05-19)
- * @info $Id: class.ShowAlliancePage.php 2640 2013-03-23 19:23:26Z slaver7 $
+ * @info $Id$
  * @link http://2moons.cc/
  */
 
@@ -186,23 +186,6 @@ class ShowAlliancePage extends AbstractPage
 	
 	private function createSelection()
 	{
-		global $UNI;
-		
-		$searchList	= array();
-
-		$Ally = $GLOBALS['DATABASE']->query("SELECT 
-			id, ally_name, ally_tag, ally_members, ally_image
-			FROM ".ALLIANCE."
-			WHERE ally_universe = ".$UNI."
-			ORDER BY ally_members DESC LIMIT 10;");
-			
-		while($searchRow = $GLOBALS['DATABASE']->fetch_array($Ally))
-			
-			
-			$GLOBALS['DATABASE']->free_result($Ally);
-			
-
-		
 		$this->display('page.alliance.createSelection.tpl');		
 	}
 
@@ -600,11 +583,6 @@ class ShowAlliancePage extends AbstractPage
 		
 		$this->tplObj->assign_vars(array(
 			'RangeList'						=> $RangeList,
-			'mobile_version' 		=> $USER['mobile_version'],
-			'fixed_navbar' 		=> $USER['fixed_navbar'],
-			'fixed_header' 		=> $USER['fixed_header'],
-			'game_theme' 		=> $USER['game_theme'],
-
 		));
 		
 		$this->display('page.alliance.circular.tpl');
