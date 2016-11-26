@@ -22,7 +22,7 @@
  * @copyright 2012 Jan Kröpke <info@2moons.cc>
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
  * @version 1.7.3 (2013-05-19)
- * @info $Id$
+ * @info $Id: class.Database.php 2632 2013-03-18 19:05:14Z slaver7 $
  * @link http://2moons.cc/
  */
  
@@ -30,6 +30,7 @@ class Database extends mysqli
 {
 	protected $con;
 	protected $exception;
+	protected $queryCount;
 
 	/**
 	 * Constructor: Set database access data.
