@@ -76,7 +76,7 @@
 {/if}
 
 <div class="col-xs-12 visable-xs visable-sm visable-md visable-lg">
-        <div class="hidden-lg hidden-md jarviswidget jarviswidget-color-darkBlue jarviswidget-sortable" id="wid-id-6" data-widget-colorbutton="false" data-widget-togglebutton="false" data-widget-editbutton="false" data-widget-fullscreenbutton="false" data-widget-deletebutton="false" role="widget" style="">
+        <div class="hidden-lg hidden-md hidden-xs hidden-sm jarviswidget jarviswidget-color-darkBlue jarviswidget-sortable" id="wid-id-6" data-widget-colorbutton="false" data-widget-togglebutton="false" data-widget-editbutton="false" data-widget-fullscreenbutton="false" data-widget-deletebutton="false" role="widget" style="">
                 <header role="heading">
                         <h2>Research</h2>
                         <span class="jarviswidget-loader"><i class="fa fa-refresh fa-spin"></i></span></header>
@@ -104,7 +104,7 @@
         </div>
 
 {foreach $ResearchList as $ID => $Element}
-<div id="m_building_info_{$ID}" class="m_building_info visable-xs visable-sm hidden-md hidden-lg" style="display:none;">
+<div id="m_building_info_{$ID}" class="m_building_info hidden-xs hidden-sm hidden-md hidden-lg" style="display:none;">
         <div class="jarviswidget jarviswidget-color-darkBlue jarviswidget-sortable" id="wid-id-6" data-widget-colorbutton="false" data-widget-togglebutton="false" data-widget-editbutton="false" data-widget-fullscreenbutton="false" data-widget-deletebutton="false" role="widget" style="">
                 <header role="heading">
                         <h2><a href="#" onclick="return Dialog.info({$ID})">{$LNG.tech.{$ID}}</a>{if $Element.level > 0} ({$LNG.bd_lvl} {$Element.level}{if $Element.maxLevel != 255}/{$Element.maxLevel}{/if}){/if}</h2>
@@ -174,7 +174,7 @@
 {if ($Element.row_var % 3) == 0}
 <div class="row">
 {/if}
-<div class="col-md-4 hidden-xs hidden-sm visable-md visable-lg">
+<div class="col-md-4 visable-xs visable-sm visable-md visable-lg">
         <div class="jarviswidget jarviswidget-color-darkBlue jarviswidget-sortable" id="wid-id-6" data-widget-colorbutton="false" data-widget-togglebutton="false" data-widget-editbutton="false" data-widget-fullscreenbutton="false" data-widget-deletebutton="false" role="widget" style="">
                 <header role="heading">
                         <h2><a href="#" onclick="return Dialog.info({$ID})">{$LNG.tech.{$ID}}</a>{if $Element.level > 0} ({$LNG.bd_lvl} {$Element.level}{if $Element.maxLevel != 255}/{$Element.maxLevel}{/if}){/if}</h2>
