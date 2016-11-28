@@ -2,6 +2,37 @@
 {block name="script" append}{/block}
 {block name="content"}
 
+				<!-- row -->
+				<div class="row">
+
+					<!-- col -->
+					<div class="col-xs-16 col-sm-8 col-md-6 col-lg-4">
+                  <div class="clearfix visible-xs"></div>
+						<ul id="sparks" class="">
+							<li class="sparks-info">
+								<h5> Bauschleife <span class="txt-color-blue" style="font-size: 7pt">{if $buildInfo.buildings}{$LNG.tech[$buildInfo.buildings['id']]} ({$buildInfo.buildings['level']})<div class="timer" data-time="{$buildInfo.buildings['timeleft']}">{$buildInfo.buildings['starttime']}</div>{else}{$LNG.ov_free}{/if}</span></h5>
+								<div class="sparkline txt-color-blue hidden-mobile hidden-md hidden-sm">
+			<img src="{$dpath}planeten/{$planetimage}.jpg" height="50" width="50" alt="{$planetname}">
+								</div>
+							</li>
+							<li class="sparks-info">
+								<h5> Aktive Forschungen <span class="small txt-color-purple" style="font-size: 7pt">{if $buildInfo.tech}{$LNG.tech[$buildInfo.tech['id']]} ({$buildInfo.tech['level']})<div class="timer" data-time="{$buildInfo.tech['timeleft']}">{$buildInfo.tech['starttime']}</div>{else}{$LNG.ov_free}{/if}</span></h5>
+								<div class="sparkline txt-color-purple hidden-mobile hidden-md hidden-sm">
+			<img src="{$dpath}planeten/{$planetimage}.jpg" height="50" width="50" alt="{$planetname}">
+								</div>
+							</li>
+							<li class="sparks-info">
+								<h5> Flotten Herstellung <span class="small txt-color-greenDark" style="font-size: 7pt">{if $buildInfo.fleet}{$LNG.tech[$buildInfo.fleet['id']]} ({$buildInfo.fleet['level']})<div class="timer" data-time="{$buildInfo.fleet['timeleft']}">{$buildInfo.fleet['starttime']}</div>{else}{$LNG.ov_free}{/if}</span></h5>
+								<div class="sparkline txt-color-greenDark hidden-mobile hidden-md hidden-sm">
+			<img src="{$dpath}planeten/{$planetimage}.jpg" height="50" width="50" alt="{$planetname}">
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- end row-->
+          </div>
+
 	{if $is_news}
 						<!-- start row -->
 				
@@ -19,40 +50,7 @@
 					</div>								
 					{/if}
 				<!-- end row-->
-
-						<!-- start row -->
-				
-				<!-- row -->
-				<div class="row">
 					
-					<!-- col -->
-					<div class="col-xs-12 col-sm-7 col-md-7 col-lg-4">
-						<ul id="sparks" class="">
-							<li class="sparks-info">
-								<h5> Bauschleife <span class="txt-color-blue">{if $buildInfo.buildings}{$LNG.tech[$buildInfo.buildings['id']]} ({$buildInfo.buildings['level']})<br><div class="timer" data-time="{$buildInfo.buildings['timeleft']}">{$buildInfo.buildings['starttime']}</div>{else}{$LNG.ov_free}{/if}</span></h5>
-								<div class="sparkline txt-color-blue hidden-mobile hidden-md hidden-sm">
-			<img src="{$dpath}planeten/{$planetimage}.jpg" height="50" width="50" alt="{$planetname}">
-								</div>
-							</li>
-							<li class="sparks-info">
-								<h5> Aktive Forschungen <span class="txt-color-purple">{if $buildInfo.tech}{$LNG.tech[$buildInfo.tech['id']]} ({$buildInfo.tech['level']})<br><div class="timer" data-time="{$buildInfo.tech['timeleft']}">{$buildInfo.tech['starttime']}</div>{else}{$LNG.ov_free}{/if}</span></h5>
-								<div class="sparkline txt-color-purple hidden-mobile hidden-md hidden-sm">
-			<img src="{$dpath}planeten/{$planetimage}.jpg" height="50" width="50" alt="{$planetname}">
-								</div>
-							</li>
-							<li class="sparks-info">
-								<h5> Flotten Herstellung <span class="txt-color-greenDark">{if $buildInfo.fleet}{$LNG.tech[$buildInfo.fleet['id']]} ({$buildInfo.fleet['level']})<br><div class="timer" data-time="{$buildInfo.fleet['timeleft']}">{$buildInfo.fleet['starttime']}</div>{else}{$LNG.ov_free}{/if}</span></h5>
-								<div class="sparkline txt-color-greenDark hidden-mobile hidden-md hidden-sm">
-			<img src="{$dpath}planeten/{$planetimage}.jpg" height="50" width="50" alt="{$planetname}">
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<!-- end row-->
-          </div>
-          <br>
-       <br>
 	{if $hasAdminAccess}
 							<!-- start row -->
 				
@@ -109,17 +107,19 @@
 
 			<div class="alert alert-info no-margin fade in">
 				<i class="fa-fw fa fa-info"></i>
-				Fleet
+				Flotten Bewegung
 			</div>
 			<div class="table-responsive">
 				
 				<table class="table table-hover">
 					{foreach $fleets as $index => $fleet}
 					<thead>
+<td style="word-break:break-all;word-wrap:break-word">
 						<tr>
 							<th id="fleettime_{$index}" class="fleets" data-fleet-end-time="{$fleet.returntime}" data-fleet-time="{$fleet.resttime}"><br>{pretty_fly_time({$fleet.resttime})}</th>
 							<th colspan="2"><br>{$fleet.text}</th>
 						</tr>
+                    </td>
 					</thead>
 					{/foreach}
 				</table>
@@ -187,7 +187,7 @@
 										{if $Moon}
 										<a href="game.php?page=overview&amp;cp={$Moon.id}&amp;re=0"  title="{$Moon.name}">{$Moon.name}</a> [{$galaxy}:{$system}:{$planet}]
 										{else}
-										<span>You don't have Moon</span>
+										<span>{$LNG.no_moons}</span>
 										{/if}<hr></div></div>
 										</div>
 									</div>
