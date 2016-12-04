@@ -178,5 +178,5 @@
 
 	{$PHPDebugBar->renderHead()}
 </head>
-<body id="{$smarty.get.page|htmlspecialchars|default:'overview'}" class="desktop-detected  {$fixed_navbar} {$fixed_header} {$game_theme}  pace-done ">
+<body id="{$smarty.get.page|htmlspecialchars|default:'overview'}" class="desktop-detected  {$fixed_navbar} {$fixed_header} {$game_theme} fixed-page-footer pace-done ">
 	<div id="tooltip" class="tip"></div>
