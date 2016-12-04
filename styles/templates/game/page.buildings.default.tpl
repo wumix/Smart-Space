@@ -19,10 +19,10 @@
 				<form class="build_form" action="game.php?page=buildings" method="post">
 					<input type="hidden" name="cmd" value="insert">
 					<input type="hidden" name="building" value="{$List.element}">
-      <center><button type="submit" class="btn bg-color-green txt-color-white"><i class="fa fa-gear fa-lg fa-spin"></i>
+					<button type="submit" class="btn bg-color-green txt-color-white btn-block"><i class="fa fa-gear fa-lg fa-spin"></i>
 						<span class="label label-warning">{$List.level}{if $List.destroy} {$LNG.bd_dismantle}{/if}</span>
 						{$LNG.tech.{$List.element}} 
-					</button></center>
+					</button><br />
 				</form>
 			</div>
 			<div class="visable-xs visable-sm visable-md hidden-lg"><br></div>
@@ -39,10 +39,10 @@
 			<div class="col-lg-2">
 				<form action="game.php?page=buildings" method="post" class="build_form">
 					<input type="hidden" name="cmd" value="cancel">
-        <center><button type="submit" class="btn bg-color-red txt-color-white build_submit onlist"><i class="fa fa-exclamation-triangle fa-lg fa-pulse"></i>
+					<button type="submit" class="btn bg-color-red txt-color-white btn-block"><i class="fa fa-exclamation-triangle fa-lg fa-pulse"></i>
 						<span class="label label-warning" id="time" data-time="{$List.time}"></span>
 						{$LNG.bd_cancel}
-					</button></center>
+					</button>
 				</form>
 			</div>
 			<div class="col-lg-12"><hr class="simple"></div>
@@ -51,9 +51,9 @@
 				<form action="game.php?page=buildings" method="post" class="build_form">
 					<input type="hidden" name="cmd" value="remove">
 					<input type="hidden" name="listid" value="{$List@iteration}">
-					<button type="submit" class="btn btn-danger btn-block build_submit onlist">
+					<button type="submit" class="btn bg-color-red txt-color-white btn-block"><i class="fa fa-exclamation-triangle fa-lg fa-pulse"></i>
 						{$LNG.bd_cancel}
-					</button>
+					</button><br />
 				</form>
 			</div>
 			{/if}
@@ -64,65 +64,6 @@
 </div>
 {/if}
 
-{foreach $BuildInfoList as $ID => $Element}
-<div id="m_building_info_{$ID}" class="m_building_info visable-xs visable-sm visable-md visable-lg" style="display:none;">
-	<div class="jarviswidget jarviswidget-color-darkBlue jarviswidget-sortable" id="wid-id-6" data-widget-colorbutton="false" data-widget-togglebutton="false" data-widget-editbutton="false" data-widget-fullscreenbutton="false" data-widget-deletebutton="false" role="widget" style="">
-		<header role="heading">
-			<h2><a href="#" onclick="return Dialog.info({$ID})">{$LNG.tech.{$ID}}</a>{if $Element.level > 0} ({$LNG.bd_lvl} {$Element.level}{if $Element.maxLevel != 255}/{$Element.maxLevel}{/if}){/if}</h2>
-			<span class="jarviswidget-loader"><i class="fa fa-refresh fa-spin"></i></span></header>
-			<!-- widget div-->
-			<div role="content">
-
-				<div class="col-xs-4">
-					<a href="#" onclick="return Dialog.info({$ID})">
-						<img class='img-responsive' src="styles/gebaeude/{$ID}.gif" alt="{$LNG.tech.{$ID}}" width="" height="">
-					</a>
-				</div>
-
-				<div class="col-xs-8">
-					{foreach $Element.costRessources as $RessID => $RessAmount}
-						<img src="styles/gebaeude/{$RessID}.gif" style="width: 14px;height: 14px;border: 1px solid #000;position:  -moz-border-radius: 11px; -webkit-border-radius: 11px; border-radius: 11px;    z-index: 2;"><br>
-						<span style="color:{if $Element.costOverflow[$RessID] == 0}lime{else}red{/if}; top:2px">{$RessAmount|number}</span>
-						<br>
-					{/foreach}
-					<br>
-				</div>
-				<div class="col-xs-12">
-					{if !empty($Element.infoEnergy)}{$Element.infoEnergy}{/if}<br>
-					{$LNG.fgf_time}: {$Element.elementTime|time}
-				</div>
-
-				<div class="col-xs-12">
-					<br>
-					{if $Element.maxLevel == $Element.levelToBuild}
-    <button type="submit" class="btn bg-color-red txt-color-white"><i class="fa fa-exclamation-triangle fa-lg fa-pulse"></i>   {$LNG.bd_maxlevel}</button>
-					{elseif ($isBusy.research && ($ID == 6 || $ID == 31)) || ($isBusy.shipyard && ($ID == 15 || $ID == 21))}
-	    <button type="submit" class="btn bg-color-red txt-color-white"><i class="fa fa-exclamation-triangle fa-lg fa-pulse"></i>   {$LNG.bd_working}</button>
-					{else}
-					{if $RoomIsOk}
-					{if $CanBuildElement && $Element.buyable}
-					<form action="game.php?page=buildings" method="post" class="build_form">
-						<input type="hidden" name="cmd" value="insert">
-						<input type="hidden" name="building" value="{$ID}">
-    <button type="submit" class="btn bg-color-green txt-color-white"><i class="fa fa-gear fa-lg fa-spin"></i>   {if $Element.level == 0}{$LNG.bd_build}{else}{$LNG.bd_build_next_level}{$Element.levelToBuild + 1}{/if}</button>
-					</form>
-					{else}
-<button type="submit" class="btn bg-color-red txt-color-white"><i class="fa fa-exclamation-triangle fa-lg fa-pulse"></i>   {if $Element.level == 0}{$LNG.bd_build}{else}{$LNG.bd_build_next_level}{$Element.levelToBuild + 1}{/if}</button>
-					{/if}
-					{else}
-<button type="submit" class="btn bg-color-red txt-color-white"><i class="fa fa-exclamation-triangle fa-lg fa-pulse"></i>   {$LNG.bd_no_more_fields}</button>
-					{/if}
-					{/if}
-					<br>
-				</div>
-
-
-			</div>
-			<!-- end widget div -->
-
-		</div>
-	</div>
-	{/foreach}
 
 	<script type="text/javascript">
 	$(document).ready(function(){
@@ -174,22 +115,22 @@
 				<div class="col-sm-12">
 					<br>
 					{if $Element.maxLevel == $Element.levelToBuild}
-					<button type="submit" class="btn bg-color-red txt-color-white"><i class="fa fa-exclamation-triangle fa-lg fa-pulse"></i>   {$LNG.bd_maxlevel}   </button>
+					<button type="submit" class="btn bg-color-red txt-color-white btn-block"><i class="fa fa-exclamation-triangle fa-lg fa-pulse"></i>   {$LNG.bd_maxlevel}   </button><br>
 					{elseif ($isBusy.research && ($ID == 6 || $ID == 31)) || ($isBusy.shipyard && ($ID == 15 || $ID == 21))}
-<button type="submit" class="btn bg-color-red txt-color-white"><i class="fa fa-exclamation-triangle fa-lg fa-pulse"></i>  {$LNG.bd_working}</button>
+					<button type="submit" class="btn bg-color-red txt-color-white btn-block"><i class="fa fa-exclamation-triangle fa-lg fa-pulse"></i>  {$LNG.bd_working}</button><br>
 					{else}
 					{if $RoomIsOk}
 					{if $CanBuildElement && $Element.buyable}
 					<form action="game.php?page=buildings" method="post" class="build_form">
 						<input type="hidden" name="cmd" value="insert">
 						<input type="hidden" name="building" value="{$ID}">
-						<center><button type="submit" class="btn bg-color-green txt-color-white"><i class="fa fa-gear fa-lg fa-spin"></i>   {if $Element.level == 0}{$LNG.bd_build}{else}{$LNG.bd_build_next_level}{$Element.levelToBuild + 1}{/if}</button>
+						<center><button type="submit" class="btn bg-color-green txt-color-white btn-block"><i class="fa fa-gear fa-lg fa-spin"></i>   {if $Element.level == 0}{$LNG.bd_build}{else}{$LNG.bd_build_next_level}{$Element.levelToBuild + 1}{/if}</button><br>
 					</form>
 					{else}
-					 <button type="submit" class="btn bg-color-red txt-color-white"><i class="fa fa-exclamation-triangle fa-lg fa-pulse"></i> {if $Element.level == 0}{$LNG.bd_build}{else}{$LNG.bd_build_next_level}{$Element.levelToBuild + 1}{/if}</button>
+					 <button type="submit" class="btn bg-color-red txt-color-white btn-block"><i class="fa fa-exclamation-triangle fa-lg fa-pulse"></i> {if $Element.level == 0}{$LNG.bd_build}{else}{$LNG.bd_build_next_level}{$Element.levelToBuild + 1}{/if}</button><br>
 					{/if}
 					{else}
-<button type="submit" class="btn bg-color-red txt-color-white"><i class="fa fa-exclamation-triangle fa-lg fa-pulse"></i>  {$LNG.bd_no_more_fields}</button>
+					<button type="submit" class="btn bg-color-red txt-color-white btn-block"><i class="fa fa-exclamation-triangle fa-lg fa-pulse"></i>  {$LNG.bd_no_more_fields}</button><br>
 					{/if}
 					{/if}
 					<br>
@@ -197,10 +138,10 @@
 					<form action='game.php?page=buildings' method='post' class='build_form'>
 												<input type='hidden' name='cmd' value='destroy'>
 												<input type='hidden' name='building' value='{$ID}'>
-												<button type="submit" class="btn bg-color-red txt-color-white"><i class="fa fa-exclamation-triangle fa-lg fa-pulse"></i>  {$LNG.bd_dismantle}</button>
+												<button type="submit" class="btn bg-color-red txt-color-white btn-block"><i class="fa fa-exclamation-triangle fa-lg fa-pulse"></i>  {$LNG.bd_dismantle}</button><br>
 					</form>
 					{else}
-					<button type="submit" class="btn bg-color-red txt-color-white"><i class="fa fa-exclamation-triangle fa-lg fa-pulse"></i>  {$LNG.bd_dismantle}</button>
+					<button type="submit" class="btn bg-color-red txt-color-white btn-block"><i class="fa fa-exclamation-triangle fa-lg fa-pulse"></i>  {$LNG.bd_dismantle}</button><br>
 					{/if}
 					<br>
 				</div>
