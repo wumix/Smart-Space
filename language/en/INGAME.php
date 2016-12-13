@@ -141,7 +141,7 @@ $LNG['ov_closed']							= 'The universe is currently disabled';
 $LNG['ov_reflink']							= 'Recruits';
 $LNG['ov_noreflink']						= 'At the moment, you did not recruited any player.';
 $LNG['ov_chat_online']						= 'Players in chat:';
-$LNG ['no_moons']                     = 'You don't have Moon';
+$LNG ['no_moons']                     				= 'You dont have Moon';
 
 //----------------------------------------------------------------------------//
 // Galáxia
