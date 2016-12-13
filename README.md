@@ -1,4 +1,4 @@
-# WARNING DONT USE THE INSTALLER ONLY USE THE SQL DUMP!!!!!!
+## !!!!WARNING DONT USE THE INSTALLER ONLY USE THE SQL DUMP!!!!
 
 # Smart-Space
 SmartSpace is an Browsergame Based of the 2moons 1.7.3 Engine.  
