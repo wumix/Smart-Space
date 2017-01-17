@@ -35,7 +35,7 @@
 									<div class="widget-body no-padding">
 
 										
-										<div class="table-responsive">
+										<div class="table">
 												
 											<table class="table table-bordered table-striped">
 										
