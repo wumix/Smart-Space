@@ -20,8 +20,9 @@
 			
 			<li class=""><a href="game.php?page=donate" title="Premium"><i class="fa fa-lg fa-fw fa-paypal"></i> <span
                                     class="menu-item-parent">Premium & Donate</span></a></li>		
-
-
+			
+			<li class=""><a href="?page=achievement" title="Archif"><i class="fa fa-lg fa-fw fa-archive"></i> <span
+                                    class="menu-item-parent">{$LNG.lm_achievements}</a></li>
 				
                     <li class=""><a href="game.php?page=research" title="{$LNG.lm_research}"><i
                                     class="fa fa-lg fa-fw fa-cogs"></i> <span
