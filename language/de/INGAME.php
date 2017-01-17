@@ -1176,6 +1176,295 @@ $LNG['lo_continue']							= 'Klicken Sie hier, um nicht zu warten';
 
 //----------------------------------------------------------------------------//
 
+// Achievement
+
+$LNG['lm_achievements']							    = 'Errungenschaften';
+
+//Basic
+$LNG['achievements_name']                           = 'Errungenschaften';
+$LNG['achievements_desc']                           = 'Hier k&ouml;nnen Sie sich anzeigen lassen, wie viele Errungenschaften Sie bereits erhalten haben.<br> Es gibt <b> 7 verschiedene </b> Kategorien,  in denen Sie <b> geheime Boni </b> f&uuml;r bestimmte Aufgaben erhalten.<br> Sie k&ouml;nnen auch nachlesen, welche Anforderungen die n&auml;chste Stufe/n hat/haben!';
+
+//----------------------------------------------------------------------------//
+
+//Objectives
+$LNG['achievements_require']                        = 'Anforderungen';
+$LNG['achievements_reward']                         = 'Belohnung';
+$LNG['achievements_success']                        = 'Herzlichen Gl&uuml;ckwunsch Sie haben die folgenden Errungenschaften abgeschlossen  %s  in der  %s  <br> Sie bekommen diese Belohnungen %s ';
+$LNG['achievements_level']                          = 'Level';
+$LNG['achievements_name2']                           = 'Name';
+
+//----------------------------------------------------------------------------//
+
+//Mine Achievement
+$LNG['achievements_typ_mine']                       = 'Minen';
+$LNG['achievements_mine_desc']                      = 'Minen sind verantwortlich f&uuml;r die Versorgung Ihrer Planeten,<br> Sorgen Sie staendig daf&uuml;r, das Sie die ben&ouml;tigte Menge an Rohstoffen haben.';
+$LNG['achievements_mine_reward']                    = 'Nach Ende dieser Minenmission,bekommen Sie eine Belohnung';
+$LNG['achievements_mine_require_1']                 = 'Metallmine auf Level %s';
+$LNG['achievements_mine_require_2']                 = 'Kristallmine auf Level %s';
+$LNG['achievements_mine_require_3']                 = 'Deuteriumsynthetisierer auf Level %s';
+$LNG['achievements_mine_reward_lvl1']               = '100000 Dunkle Materie und 5 Levels auf Geologe';
+$LNG['achievements_mine_reward_lvl2']               = '250000 Dunkle Materie und 5 Levels auf Geologe';
+$LNG['achievements_mine_reward_lvl3']               = '350000 Dunkle Materie und 5 Levels auf Geologe';
+$LNG['achievements_mine_reward_lvl4']               = '500000 Dunkle Materie und 5 Levels auf Geologe';
+$LNG['achievements_mine_reward_lvl5']               = '1000000 Dunkle Materie und 5 Levels auf Geologe (Bonus Level)';
+$LNG['achievements_mine_reward_hardcore']           = '10 Levels auf Geologe (Bonus Levels)';
+$LNG['achievements_mine_lvl1']                      = 'Die erste Produktion (Level 1)';
+$LNG['achievements_mine_lvl2']                      = 'Den Bergbau Entdeckt (Level 2)';
+$LNG['achievements_mine_lvl3']                      = 'Neue Mittel (Level 3)';
+$LNG['achievements_mine_lvl4']                      = 'Gold-M&ouml;glichkeiten (Level 4)';
+$LNG['achievements_mine_lvl5']                      = 'Ein Schatz (Level 5)';
+$LNG['achievements_mine_hardcore']                  = 'HARDCORE Level';
+$LNG['achievements_mine_done']                      = 'Sie haben alle Minen-Auftr&auml;ge Erledigt';
+
+//----------------------------------------------------------------------------//
+
+//Research Achievement
+$LNG['achievements_typ_research']                   = 'Forschung';
+$LNG['achievements_research_desc']                  = 'Forschung ist fuer einen erfolgreichen Herrscher notwendig.<br> Sie sollten immer Ihren Gegnern in Bezug auf Technologie ueberlegen sein.<br>Ist Ihr Reich maechtig genug, um alle Forschungen abzuschliessen?';
+$LNG['achievements_research_reward']                = 'Nach dem Abchluss dieser Forschungsmission bekommen Sie eine Belohnung';
+$LNG['achievements_research_lvl1_require_1']        = 'Spionagetechnik auf Level 5';
+$LNG['achievements_research_lvl1_require_2']        = 'Computertechnik auf Level 6';
+$LNG['achievements_research_lvl1_require_3']        = 'Energietechnik auf Level 5';
+$LNG['achievements_research_lvl2_require_1']        = 'Spionagetechnik auf Level 10';
+$LNG['achievements_research_lvl2_require_2']        = 'Computertechnik auf Level 10';
+$LNG['achievements_research_lvl2_require_3']        = 'Energietechnik auf Level 10';
+$LNG['achievements_research_lvl3_require_1']        = 'Verbrennungstriebwerk auf Level 10';
+$LNG['achievements_research_lvl3_require_2']        = 'Impulstriebwerk Level auf 7';
+$LNG['achievements_research_lvl3_require_3']        = 'Hyperraumantrieb auf Level 5';
+$LNG['achievements_research_lvl4_require_1']        = 'Metall-Forschung auf Level 18';
+$LNG['achievements_research_lvl4_require_2']        = 'Kristall-Forschung auf Level 16';
+$LNG['achievements_research_lvl4_require_3']        = 'Deuterium-Forschung auf Level 16';
+$LNG['achievements_research_lvl5_require_1']        = 'Waffentechnik auf Level 20';
+$LNG['achievements_research_lvl5_require_2']        = 'Schildtechnik  auf Level 22';
+$LNG['achievements_research_lvl5_require_3']        = 'Raumschiffpanzerung auf Level 25';
+$LNG['achievements_research_hardcore_require_1']    = 'Waffentechnik auf Level 28';
+$LNG['achievements_research_hardcore_require_2']    = 'Shieldtechnik auf Level 28';
+$LNG['achievements_research_hardcore_require_3']    = 'Raumschiffpanzerung auf Level 30';
+$LNG['achievements_research_reward_lvl1']           = '100000 Dunkle Materie und 5 Levels auf Ingenieur';
+$LNG['achievements_research_reward_lvl2']           = '250000 Dunkle Materie und 5 Levels auf Technokrat';
+$LNG['achievements_research_reward_lvl3']           = '350000 Dunkle Materie und 5 Levels auf Admiral';
+$LNG['achievements_research_reward_lvl4']           = '500000 Dunkle Materie und 5 Levels auf Geologe';
+$LNG['achievements_research_reward_lvl5']           = '1000000 Dunkle Materie und 5 Levels auf Admiral (Bonus Levels)';
+$LNG['achievements_research_reward_hardcore']       = '10 Levels auf Admiral (Bonus Levels)';
+$LNG['achievements_research_lvl1']                  = 'Anf&auml;nger-Wissenschaftler (Level 1)';
+$LNG['achievements_research_lvl2']                  = 'Das Hacken des Commanders (Level 2)';
+$LNG['achievements_research_lvl3']                  = 'Schnelle Schiffe (Level 3)';
+$LNG['achievements_research_lvl4']                  = 'Vergoldete Mittel... (Level 4)';
+$LNG['achievements_research_lvl5']                  = 'Die Kunst der Armee (Level 5)';
+$LNG['achievements_research_hardcore']              = 'HARDCORE Level';
+$LNG['achievements_research_done']                  = 'Sie haben das Forschungs-Level abgeschlossen';
+
+//----------------------------------------------------------------------------//
+
+//Battle Achievement
+$LNG['achievements_typ_battle']                     = 'K&auml;mpfe';  
+$LNG['achievements_battle_desc']                    = 'Was wuerde ein Herrscher ohne seine Flotte sein? Nichts wirklich!<br> Ein Kaiser ist alles andere als Wehrlos, er muss <b>dominierend</b> sein!<br>Bauen Sie eine gro&szlig;e Flotte, um immer gegen Angreifer gewappnet zu sein, aber wichtiger ist es Selbst Angriffe zu fliegen und Rohstoffe zu erobern!<br> Sind Sie f&uuml;r diese Herausforderung bereit?';
+$LNG['achievements_battle_reward']                  = 'Nach dem Abschluss dieser Kampfmission bekommen Sie eine Belohnung';
+$LNG['achievements_battle_require_1']               = 'F&uuml;hren Sie mindestens %s Schlachten';
+$LNG['achievements_battle_require_2']               = 'Gewinnen Sie mindestens %s Schlachten';
+$LNG['achievements_battle_reward_lvl1']             = '100000 Dunkle Materie';
+$LNG['achievements_battle_reward_lvl2']             = '250000 Dunkle Materie';
+$LNG['achievements_battle_reward_lvl3']             = '350000 Dunkle Materie';
+$LNG['achievements_battle_reward_lvl4']             = '500000 Dunkle Materie';
+$LNG['achievements_battle_reward_lvl5']             = '1000000 Dunkle Materie';
+$LNG['achievements_battle_reward_hardcore']         = '5 Levels auf Commander ';
+$LNG['achievements_battle_lvl1']                    = 'Neue-Weltordnung (Level 1)';
+$LNG['achievements_battle_lvl2']                    = 'Auslöscher (Level 2)';
+$LNG['achievements_battle_lvl3']                    = 'Tod von Oben (Level 3)';
+$LNG['achievements_battle_lvl4']                    = 'Stiller Ehrgeiz (Level 4)';
+$LNG['achievements_battle_lvl5']                    = 'Die Kunst des Krieges (Level 5)';
+$LNG['achievements_battle_hardcore']                = 'HARDCORE Level';
+$LNG['achievements_battle_done']                    = 'Sie haben das Kampf-Level abgeschlossen';
+
+//----------------------------------------------------------------------------//
+
+//Ship Achievement
+$LNG['achievements_typ_ship']                       = 'Flotte';
+$LNG['achievements_ship_desc']                      = 'Um das Weltall zu bereisen, sind Raumschiffe erforderlich.<br>Versuchen Sie sobald wie möglich, eine Flotte zu bauen.<br>Sonst können Sie nicht am Kampf im Weltall teilnehmen.';
+$LNG['achievements_ship_reward']                    = 'Nach Abschluss dieser Flottenmission bekommen Sie eine Belohnung';
+$LNG['achievements_ship_lvl1_require_1']            = 'Besitze mindestens 1,000,000 Kriegsschiffe';
+$LNG['achievements_ship_lvl2_require_1']            = 'Besitze mindestens 1,000,000 Zerstörer';
+$LNG['achievements_ship_lvl3_require_1']            = 'Besitze mindestens 2,000,000 Todessterne';
+$LNG['achievements_ship_lvl4_require_1']            = 'Besitze mindestens 2,500,000 Lune Noire';
+$LNG['achievements_ship_lvl5_require_1']            = 'Besitze mindestens 1.500.000 Avatare';
+$LNG['achievements_ship_reward_lvl1']               = '100000 Dunkle Materie und 2 Levels auf Admiral';
+$LNG['achievements_ship_reward_lvl2']               = '250000 Dunkle Materie und 2 Levels auf Admiral';
+$LNG['achievements_ship_reward_lvl3']               = '350000 Dunkle Materie und 2 Levels auf Commander';
+$LNG['achievements_ship_reward_lvl4']               = '500000 Dunkle Materie und 2 Levels auf Commander';
+$LNG['achievements_ship_reward_lvl5']               = '1000000 Dunkle Materie und 2 Levels auf General';
+$LNG['achievements_ship_lvl1']                      = 'Kriegsschiff-Spizalist (Level 1)';
+$LNG['achievements_ship_lvl2']                      = 'Zerstörer-Spezialist (Level 2)';
+$LNG['achievements_ship_lvl3']                      = 'Todesstern-Spezialist (Level 3)';
+$LNG['achievements_ship_lvl4']                      = 'Lune Noire-Spezialist (Level 4)';
+$LNG['achievements_ship_lvl5']                      = 'Avatar-Spezialist  (Level 5)';
+$LNG['achievements_ship_done']                      = 'Sie haben das Flotten-Level abgeschlossen';
+
+//----------------------------------------------------------------------------//
+
+//Defence Achievement
+$LNG['achievements_typ_defence']                   = 'Verteidigung';
+$LNG['achievements_defence_desc']                  = 'Die beste Flotte des Alls n&uuml;tzt nichts, wenn Sie sich nicht verteidigen können.<br> Deshalb ist es auch wichtig, <b>Verteidigungsstellungen</b> auszubauen.<br>Ist Ihre Verteidigung stark genug, um alle Bonis zu bekommen?';
+$LNG['achievements_defence_reward']                = 'Nach dem Abschluss dieser Verteidigungsmission bekommen Sie eine Belohnung';
+$LNG['achievements_defence_lvl1_require_1']        = 'Besitze mindestens 1,000,000 Gauss-Kanonen';
+$LNG['achievements_defence_lvl2_require_1']        = 'Besitze minderstens 1,000,000 Ionen-Kanonen';
+$LNG['achievements_defence_lvl3_require_1']        = 'Besitze minderstens 1,500,000 Plasma-Kanonen';
+$LNG['achievements_defence_lvl4_require_1']        = 'Besitze minderstens 2,000,000 Gravition-Kanonen';
+$LNG['achievements_defence_lvl5_require_1']        = 'Besitze minderstens 1 Orbitale Verteidigungsplattform';
+$LNG['achievements_defence_reward_lvl1']           = '100000 Dunkle Materie und 2 Levels auf Verteidigungsminister';
+$LNG['achievements_defence_reward_lvl2']           = '250000 Dunkle Materie und 2 Levels auf Verteidigungsminister';
+$LNG['achievements_defence_reward_lvl3']           = '350000 Dunkle Materie und 2 Levels auf Verteidigungsminister';
+$LNG['achievements_defence_reward_lvl4']           = '500000 Dunkle Materie und 1 Level auf W&auml;chter';
+$LNG['achievements_defence_reward_lvl5']           = '1000000 Dunkle Materie';
+$LNG['achievements_defence_lvl1']                  = 'Gauss-Kanonen Spezialist (Level 1)';
+$LNG['achievements_defence_lvl2']                  = 'Ionen-Kanonen Spezialist (Level 2)';
+$LNG['achievements_defence_lvl3']                  = 'Plasma-Kanonen Spezialist (Level 3)';
+$LNG['achievements_defence_lvl4']                  = 'Graviton-Kanonen Spezialist (Level 4)';
+$LNG['achievements_defence_lvl5']                  = 'A Unbealivable Shield (Level 5)';
+$LNG['achievements_defence_done']                  = 'Sie haben das Verteidigungs-Level abgeschlossen';
+
+//----------------------------------------------------------------------------//
+
+//Storage Achievement
+$LNG['achievements_typ_storage']                   = 'Lagerung';  
+$LNG['achievements_storage_desc']                  = 'Ein Herrscher braucht Rohstoffe, um sein Reich auszubauen !<br>Warum produziert der Planet keine Rohstoffe mehr? Weil die Speicher voll sind!<br>Bahh... es ist Zeit das zu &auml;ndern! Baue deine Speicher weiter aus!';
+$LNG['achievements_storage_reward']                = 'Nach dem Abschluss dieser Lagermission bekommen Sie eine Belohnung';
+$LNG['achievements_storage_require_1']             = 'Produktionsmaximierung Metall auf Level %s';
+$LNG['achievements_storage_require_2']             = 'Produktionsmaximierung Kristall auf Level %s';
+$LNG['achievements_storage_require_3']             = 'Produktionsmaximierung Deuterium auf Level %s';
+$LNG['achievements_storage_reward_lvl1']           = '100000 Dunkle Materie und 5 Levels auf Lagermeister';
+$LNG['achievements_storage_reward_lvl2']           = '250000 Dunkle Materie und 5 Levels auf Lagermeister';
+$LNG['achievements_storage_reward_lvl3']           = '350000 Dunkle Materie und 5 Levels auf Lagermeister';
+$LNG['achievements_storage_lvl1']                  = 'Das erste Volle (Level 1)';
+$LNG['achievements_storage_lvl2']                  = 'Mittel voraus! (Level 2)';
+$LNG['achievements_storage_lvl3']                  = 'Es Regnet Rohstoffe (Level 3)';
+$LNG['achievements_storage_done']                  = 'Sie haben das Lager-Level abgeschlossen';
+
+//----------------------------------------------------------------------------//
+
+//Moon Achievement
+$LNG['achievements_typ_moon']                      = 'Mond';  
+$LNG['achievements_moon_desc']                     = 'Der Mond ist f&uuml;r die Entwicklung eines Planeten und f&uuml;r die Kriege sehr wichtig...<br> Sch&uuml;tzen Sie Ihren Mond vor den Todessternen und nutzen Sie ihn f&uuml;r den Transport Ihrer Schiffe.<br>Sie können den Mond auch als Spionageplattform nutzen,<br>um Geheimdienstinformationen &uuml;ber Systeme in Ihre Umgebung zu bekommen!';
+$LNG['achievements_moon_reward']                   = 'Nach dem Abschluss der Mondmission bekommen Sie eine Belohnung';
+$LNG['achievements_moon_lvl1_require_1']           = 'Bekommen Sie einen Mond';
+$LNG['achievements_moon_require_1']                = 'Mondbasis auf Level %s';
+$LNG['achievements_moon_require_2']                = 'Sensorphalanx auf Level %s';
+$LNG['achievements_moon_require_3']                = 'Sprungtor auf Level %s';
+$LNG['achievements_moon_reward_lvl1']              = '100000 Dunkle Materie';
+$LNG['achievements_moon_reward_lvl2']              = '250000 Dunkle Materie';
+$LNG['achievements_moon_reward_lvl3']              = '350000 Dunkle Materie';
+$LNG['achievements_moon_reward_lvl4']              = '500000 Dunkle Materie';
+$LNG['achievements_moon_reward_lvl5']              = '1000000 Dunkle Materie';
+$LNG['achievements_moon_lvl1']                     = 'Camping auf dem Mond (Level 1)';
+$LNG['achievements_moon_lvl2']                     = 'Spione, &uuml;berall! (Level 2)';
+$LNG['achievements_moon_lvl3']                     = 'Beam me up Scotti!  (Level 3)';
+$LNG['achievements_moon_done']                     = 'Sie haben das Mond-Level abgeschlossen';
+
+//----------------------------------------------------------------------------//
+
+//Colony Achievement
+$LNG['achievements_typ_colony']                      = 'Empire';  
+$LNG['achievements_colony_desc']                     = 'Your empire is developed by Planets and planets is essential to develop your army and conquer the galaxy. Get the sufficient of Planets and Moons to build your Biggest Army!';
+$LNG['achievements_colony_reward']                   = 'After finish this Colony Mission, you win a reward';
+$LNG['achievements_colony_lvl1_require_1']           = 'Create 1 colony around the Galaxy';
+$LNG['achievements_colony_lvl2_require_1']           = 'Create 5 colonies around the Galaxy';
+$LNG['achievements_colony_lvl3_require_1']           = 'Create 10 colonies around the Galaxy';
+$LNG['achievements_colony_lvl4_require_1']           = 'Create 15 colonies around the Galaxy';
+$LNG['achievements_colony_lvl5_require_1']           = 'Create 25 colonies around the Galaxy';
+$LNG['achievements_colony_reward']              = '100000 Dark Matter';
+$LNG['achievements_colony_lvl1']                     = 'Primitive Civilizator (Level 1)';
+$LNG['achievements_colony_lvl2']                     = 'Planetary Civilizator (Level 2)';
+$LNG['achievements_colony_lvl3']                     = 'Space Civilizator (Level 3)';
+$LNG['achievements_colony_lvl4']                     = 'Colonial Civilizator (Level 4)';
+$LNG['achievements_colony_lvl5']                     = 'Advanced Civilizator (Level 5)';
+$LNG['achievements_colony_done']                     = 'You have the Colony Achievement';
+
+//----------------------------------------------------------------------------//
+
+//Friendship Achievement
+$LNG['achievements_typ_friend']                  = 'Friendship';  
+$LNG['achievements_friend_desc']                 = 'The friendship is very important to know who is your friends in the game... Dont hesitate and make this achievement with all peace';
+$LNG['achievements_friend_reward']                   = 'After finish this Friendship Mission, you win a reward';
+$LNG['achievements_friend_lvl1_require_1']           = 'Be a member of one Alliance';
+$LNG['achievements_friend_lvl2_require_1']           = 'Make one Friend Request';
+$LNG['achievements_friend_reward_lvl1']              = '100000 Dark Matter';
+$LNG['achievements_friend_reward_lvl2']              = '100000 Dark Matter';
+$LNG['achievements_friend_lvl1']                     = 'The Brotherhood (Level 1)';
+$LNG['achievements_friend_lvl2']                     = 'The First Musketeer (Level 2)';
+$LNG['achievements_friend_done']                 = 'You have the Friendship Achievement';
+
+//----------------------------------------------------------------------------//
+
+//Statpoints Achievement
+$LNG['achievements_typ_statpoints']                  = 'Statistics';  
+$LNG['achievements_statpoints_desc']                 = 'The Statistics allow caracterize your Empire in relation of another empires, to comparate and make you thing what is better for your empire';
+$LNG['achievements_statpoints_reward']                   = 'After finish this Statistics Mission, you win a reward';
+$LNG['achievements_statpoints_lvl1_require_1']           = 'Achieve 500.000 Points';
+$LNG['achievements_statpoints_lvl2_require_1']           = 'Achieve 5.000.000 Points';
+$LNG['achievements_statpoints_lvl3_require_1']           = 'Achieve 50.000.000 Points';
+$LNG['achievements_statpoints_lvl4_require_1']           = 'Achieve 100.000.000 Points';
+$LNG['achievements_statpoints_lvl5_require_1']           = 'Achieve 500.000.000 Points';
+$LNG['achievements_statpoints_lvl6_require_1']           = 'Achieve 1.000.000.000 Points';
+$LNG['achievements_statpoints_reward_lvl1']              = '100000 Dark Matter';
+$LNG['achievements_statpoints_reward_lvl2']              = '100000 Dark Matter';
+$LNG['achievements_statpoints_reward_lvl3']              = '100000 Dark Matter';
+$LNG['achievements_statpoints_reward_lvl4']              = '100000 Dark Matter';
+$LNG['achievements_statpoints_reward_lvl5']              = '100000 Dark Matter';
+$LNG['achievements_statpoints_reward_lvl6']              = '500000 Dark Matter';
+$LNG['achievements_statpoints_lvl1']                     = 'Battle for Hundred Thousand (Level 1)';
+$LNG['achievements_statpoints_lvl2']                     = 'Battle for Million (Level 2)';
+$LNG['achievements_statpoints_lvl3']                     = 'Battle for Double Million (Level 3)';
+$LNG['achievements_statpoints_lvl4']                     = 'Battle for One Hundred Million (Level 4)';
+$LNG['achievements_statpoints_lvl5']                     = 'Battle for Five Hundred Million (Level 5)';
+$LNG['achievements_statpoints_lvl6']                     = 'Battle for Milliard (Level 6)';
+$LNG['achievements_statpoints_done']                 = 'You have the Statistics Achievement';
+
+//----------------------------------------------------------------------------//
+
+//Destruction Achievement
+$LNG['achievements_typ_destroy']                  = 'Destruction';  
+$LNG['achievements_destroy_desc']                 = 'Do you think you have a sufficient power to destroy the fleet of another empire? Prove this and you recive a little reward';
+$LNG['achievements_destroy_reward']                   = 'After finish this Destruction Mission, you win a reward';
+$LNG['achievements_destroy_lvl1_require_1']           = 'Make 10.000.000 Destruction Debris in Enemy Fleet';
+$LNG['achievements_destroy_lvl2_require_1']           = 'Make 100.000.000 Destruction Debris in Enemy Fleet';
+$LNG['achievements_destroy_lvl3_require_1']           = 'Make 1.000.000.000 Destruction Debris in Enemy Fleet';
+$LNG['achievements_destroy_lvl4_require_1']           = 'Make 10.000.000.000 Destruction Debris in Enemy Fleet';
+$LNG['achievements_destroy_lvl5_require_1']           = 'Make 100.000.000.000 Destruction Debris in Enemy Fleet';
+$LNG['achievements_destroy_lvl6_require_1']           = 'Make 1.000.000.000.000 Destruction Debris in Enemy Fleet';
+$LNG['achievements_destroy_reward_lvl1']              = '100000 Dark Matter';
+$LNG['achievements_destroy_reward_lvl2']              = '100000 Dark Matter';
+$LNG['achievements_destroy_reward_lvl3']              = '100000 Dark Matter';
+$LNG['achievements_destroy_reward_lvl4']              = '100000 Dark Matter';
+$LNG['achievements_destroy_reward_lvl5']              = '500000 Dark Matter';
+$LNG['achievements_destroy_reward_lvl6']              = '1000000 Dark Matter';
+$LNG['achievements_destroy_lvl1']                     = 'Sharpkiller (Level 1)';
+$LNG['achievements_destroy_lvl2']                     = 'On the Ready Line (Level 2)';
+$LNG['achievements_destroy_lvl3']                     = 'Another Fleethunt (Level 3)';
+$LNG['achievements_destroy_lvl4']                     = 'Kill Them All (Level 4)';
+$LNG['achievements_destroy_lvl5']                     = 'Nuke From Orbit (Level 5)';
+$LNG['achievements_destroy_lvl6']                     = 'Im the Death Incarnation (Level 6)';
+$LNG['achievements_destroy_done']                 = 'You have the Destruction Achievement';
+
+//----------------------------------------------------------------------------//
+
+//Debris Achievement
+$LNG['achievements_typ_debris']                      = 'Debris';  
+$LNG['achievements_debris_desc']                     = 'After the biggest battles, exists a great amount of debris in the planet orbit. Recycle the possible you can to recive a Reward';
+$LNG['achievements_debris_reward']                   = 'After finish this Debris Mission, you win a reward';
+$LNG['achievements_debris_lvl1_require_1']           = 'Get one debris';
+$LNG['achievements_debris_require_1']                = 'Recycle %s Units of Metal';
+$LNG['achievements_debris_require_2']                = 'Recycle %s Units of Crystal';
+$LNG['achievements_debris_reward_lvl1']              = '100000 Dark Matter';
+$LNG['achievements_debris_reward_lvl2']              = '100000 Dark Matter';
+$LNG['achievements_debris_reward_lvl3']              = '100000 Dark Matter';
+$LNG['achievements_debris_reward_lvl4']              = '500000 Dark Matter';
+$LNG['achievements_debris_reward_lvl5']              = '1000000 Dark Matter';
+$LNG['achievements_debris_lvl1']                     = 'Making the Recyclers (Level 1)';
+$LNG['achievements_debris_lvl2']                     = 'Exploring the Galaxy (Level 2)';
+$LNG['achievements_debris_lvl3']                     = 'Under the Comets (Level 3)';
+$LNG['achievements_debris_lvl4']                     = 'Recycling of Quality (Level 4)';
+$LNG['achievements_debris_lvl5']                     = 'The Art of Comets (Level 5)';
+$LNG['achievements_debris_done']                     = 'You have the Debris Achievement';
+
 
 // Translated into German by Jan . All rights reversed (C) 2011
 
