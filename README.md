@@ -1,6 +1,6 @@
 ## !!!!WARNING DONT FORGET THE mysql.sql TO INSERT IN YOUR DATABASE!!!!
   
-  ###  Please Join us to the forum to get the best Support. visit <http://smartmoons.xyz>
+  #  Please Join us to the forum to get the best Support. visit <http://smartmoons.xyz>
   
 # Smart-Space
 SmartSpace is an Browsergame Based of the 2moons 1.7.3 Engine.  
