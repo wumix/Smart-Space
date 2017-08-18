@@ -958,9 +958,12 @@ CREATE TABLE IF NOT EXISTS `uni1_ticket_category` (
   `name` varchar(32) NOT NULL,
   PRIMARY KEY (`categoryID`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+-- --------------------------------------------------------
+
 --
-- Daten fÃ¼r Tabelle `uni1_ticket_kategory`
-0--
+-- Daten fÃ¼r Tabelle `uni1_ticket_kategory`
+--
+
 INSERT INTO `uni1_ticket_category` (`categoryID`, `name`) VALUES(1, 'Support');
 -- --------------------------------------------------------
 
