@@ -1,11 +1,10 @@
 ## !!!!WARNING DONT FORGET THE mysql.sql TO INSERT IN YOUR DATABASE!!!!
   
-###  Please Join us to the forum to get the best Support. visit <http://smartmoons.xyz>
+###  Please Join us to the forum to get the best Support. visit <http://smartgames.esy.es>
   
 # Smart-Space
 SmartSpace is an Browsergame Based of the 2moons 1.7.3 Engine.  
 SmartSpace is complete responsive and mobile friendly.  
-[![Codewake](https://www.codewake.com/badges/ask_question.svg)](https://www.codewake.com/p/smartmoons-6970dbbf-6794-4710-9a12-72d3596c9e06)
   
 > ## How to Install:  
 >  
@@ -19,11 +18,8 @@ SmartSpace is complete responsive and mobile friendly.
   
   
   
-Visit http://SmartMoons.xyz for modding and support.
+Visit http://SmartGames.esy.es for modding and support.
 
-Ore Codewake
-
-[![Codewake](https://www.codewake.com/badges/ask_question_flat_square.svg)](https://www.codewake.com/p/smartmoons-6970dbbf-6794-4710-9a12-72d3596c9e06)
 
 
 # Update Changelog: 
